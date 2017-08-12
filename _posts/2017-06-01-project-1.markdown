@@ -9,7 +9,7 @@ thumbnail: study-group-1.jpg
 alt: image-alt
 project-date: 1 June 2017
 client: Start Bootstrap
-category: Study Group
+category: study-group
 description: "
     <h3>Talk #1</h3>
     <h5>Application of RNNs to Multiple Asynchronous Event-Driven Data Streams</h5>
@@ -45,10 +45,10 @@ description: "
     <h5>Recommended readings<h5>
     <ul>
     <li>
-    A Neural Algorithm of Artistic Style <a href=\"https://arxiv.org/abs/1508.06576\">https://arxiv.org/abs/1508.06576</a>
+    <a href=\"https://arxiv.org/abs/1508.06576\">A Neural Algorithm of Artistic Style</a>
     </li>
     <li>
-    Perceptual Losses for Real-Time Style Transfer and Super-Resolution <a href=\"http://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf\">http://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf</a>
+    <a href=\"http://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf\">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>
     </li>
     </ul>
    " 
