@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: legal
 ---
 Privacy Policy

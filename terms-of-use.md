@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: legal
 ---
 Terms of Use
