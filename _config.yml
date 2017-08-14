@@ -49,6 +49,12 @@ social:
     url: https://www.facebook.com/groups/stockholmai
   - title: github
     url: http://github.com/Stockholm-AI
+  - title: meetup
+    url: https://www.meetup.com/StockholmAI
+  - title: linkedin
+    url: https://www.linkedin.com/company/stockholm.ai
+#  - title: crunchbase
+#    url: https://www.crunchbase.com/organization/stockholm-ai
 
 # Postal address (add as many lines as necessary)
 address:
@@ -57,4 +63,4 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
