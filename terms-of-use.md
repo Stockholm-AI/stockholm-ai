@@ -88,7 +88,6 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 4.10) Where we create a link from our Website to any website operated by you, we shall have the right to remove such link at any time without obtaining your prior consent. In the event that we do remove a link from our Website to any website operated by you, we shall in no way be liable for any loss, liability, cost or expense suffered by you as a result (whether direct or indirect) of such removal, including, without limitation to the foregoing generality, where such loss, liability, cost or expense results from a loss of search engine positioning, ranking, placement or optimisation.
 
 # 5. Privacy and data protection.
-
 5.1) Our right to privacy is important to us. The following terms are provided to explain how we collect and use information about you so that you can make an informed choice about using the Website.
 
 5.2) Data protection
