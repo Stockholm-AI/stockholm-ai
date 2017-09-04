@@ -157,6 +157,8 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 10.1) {{ site.organization.name }} are Swedish registered trademarks of {{ site.organization.name }}.
 
 <<< Some of the stuff is "Acts" and stuff is not Swedish law, they are british but they follow the european directive >>>
+* computer misuse act (1990)
+* data protection act (1998)
 
 # Changes
 * None
