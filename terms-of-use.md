@@ -1,5 +1,8 @@
 ---
 layout: legal
+acts:
+    personal-data: "Personal Data Act (1998:204)"
+    hacking: "Hacking Act (2014:302)"
 ---
 # Terms of use
 ANY PARTICIPATION IN THIS SITE WILL CONSTITUTE ACCEPTANCE OF THIS AGREEMENT. IF YOU DO NOT AGREE TO ABIDE BY THE ABOVE, PLEASE DO NOT USE THIS SITE.
@@ -83,7 +86,7 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 
 4.8) We expect many of those contributing to our message boards to have strong views about the matters discussed, but the Website is subject to the laws of libel and you and we could be sued if you are not careful in what you say. You should not make libellous postings or any postings that are illegal or breach copyright, database or other related rights. It is your responsibility to check this. We do not accept any liability in this respect.
 
-4.9) You must not misuse the Website by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to the Website, the server on which the Website is stored or any server, computer or database connected to the Website. You must not attack the Website via a denial-of-service attack or a distributed denial-of service attack.By breaching this provision, you would commit a criminal offence under the Computer Misuse Act 1990. We reserve the right to report any such breach to the relevant law enforcement authorities and in such an event we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use the Website will cease immediately.We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of the Website or to your downloading of any material posted on it, or on any website linked to it.
+4.9) You must not misuse the Website by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to the Website, the server on which the Website is stored or any server, computer or database connected to the Website. You must not attack the Website via a denial-of-service attack or a distributed denial-of service attack. By breaching this provision, you would commit a criminal offence under the {{ page.acts.hacking }}. We reserve the right to report any such breach to the relevant law enforcement authorities and in such an event we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use the Website will cease immediately.We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of the Website or to your downloading of any material posted on it, or on any website linked to it.
 
 4.10) Where we create a link from our Website to any website operated by you, we shall have the right to remove such link at any time without obtaining your prior consent. In the event that we do remove a link from our Website to any website operated by you, we shall in no way be liable for any loss, liability, cost or expense suffered by you as a result (whether direct or indirect) of such removal, including, without limitation to the foregoing generality, where such loss, liability, cost or expense results from a loss of search engine positioning, ranking, placement or optimisation.
 
@@ -91,13 +94,13 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 5.1) Our right to privacy is important to us. The following terms are provided to explain how we collect and use information about you so that you can make an informed choice about using the Website.
 
 5.2) Data protection
-* {{ site.organization.name }} is keen to strike a fair balance between your personal privacy and ensuring that you obtain full value from the products and services it provides, while ensuring that it complies with all protection the Data Protection Act 1998 ('the Act') affords to you. {{ site.organization.name }} will hold your personal data securely in accordance with the Act, under which it is fully registered.
+* {{ site.organization.name }} is keen to strike a fair balance between your personal privacy and ensuring that you obtain full value from the products and services it provides, while ensuring that it complies with all protection the {{ page.acts.personal-data }} ('the Act') affords to you. {{ site.organization.name }} will hold your personal data securely in accordance with the Act, under which it is fully registered.
 * The main purpose of the Act is to contain the possible threat to individuals from the misuse of personal data relating to them held in manual records or on computing equipment. {{ site.organization.name }} complies with all requirements of the law on protection of personal data held on computer or in manual records. The same requirements apply to any records held by individual students about identifiable living individuals.
 
 5.3) Collection and use of personal data
 * Personal data is not stored nor captured through the Website without the prior knowledge and consent of Users. Where personal information is captured (eg through web-based forms for feedback, registration, requests, etc), the User will be informed as to what personal information is being collected, who will use it, and for what purpose(s) it will be used.
 * Any personal data that you give us will be treated with the utmost care and security. We will hold your personal information on our systems for as long as it is still used for the purpose stated when originally requested.
-* {{ site.organization.name }} is keen to strike a fair balance between your personal privacy and ensuring that you obtain full value from the products and services it provides, while ensuring that it complies with all protection the Data Protection Act 1998 ('the Act') affords to you. {{ site.organization.name }} will hold your personal data securely in accordance with the Act, under which it is fully registered.
+* {{ site.organization.name }} is keen to strike a fair balance between your personal privacy and ensuring that you obtain full value from the products and services it provides, while ensuring that it complies with all protection the {{ page.acts.personal-data }} (the Act') affords to you. {{ site.organization.name }} will hold your personal data securely in accordance with the Act, under which it is fully registered.
 * Should you request that we amend or suppress records containing your personal data, we will endeavour to do so as promptly as practical. However, you may receive communications for a transitional period while we process your records.
 * The Act gives you the right to see the personal information {{ site.organization.name }} holds on you. Please see Data protection for more information.
 
@@ -149,15 +152,13 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 
 # 9. Linking to the website
 9.1) You may link your website to the home page of the Website at {{ site.url }}, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists. {{ site.organization.name }} reserves the right on demand, as it in its discretion thinks fit, to direct you to remove any links to the Website from your website and you shall promptly comply with any such direction or any other lawful direction that we may give to you in relation to the placing of any such link on your website.
+
 9.2) You must not establish a link from any website that is not owned by you.
+
 9.3) Our Website (or any part of its or content on it) must not be framed on any other site, nor may you create a link to any part of the Website other than the home page. We reserve the right to withdraw linking permission without notice. The website from which you are linking must comply in all respects with the content standards set out in paragraph 4 above.
 
 # 10. Trademarks
-10.1) {{ site.organization.name }} are Swedish registered trademarks of {{ site.organization.name }}.
-
-<<< Some of the stuff is "Acts" and stuff is not Swedish law, they are british but they follow the european directive >>>
-* computer misuse act (1990)
-* data protection act (1998)
+10.1) {{ site.organization.name }} is a Swedish registered trademark of {{ site.organization.name }}.
 
 # Changes
 * None
