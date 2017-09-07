@@ -1,4 +1,5 @@
 ---
 layout: legal
 ---
-<<< Link in chapter 5. from terms-of-use via include into both here and terms-of-use under chapter 5 >>>
+{% capture privacy_policy %}{% include privacy_policy.md %}{% endcapture %}
+{{ privacy_policy | markdownify }}
