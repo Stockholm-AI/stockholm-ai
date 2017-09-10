@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
 
     <body id="page-top" class="index">
 
-    {% include header.html %}
+    {% include promotion.html %}
+
+    {% comment %}
     {% include services.html %}
     {% include portfolio_grid.html %}
+    {% endcomment %}
+
     {% include about.html %}
+
+    {% comment %}
     {% include team.html %}
     {% include clients.html %}
     {% include contact.html %}
+    {% endcomment %}
+
     {% include footer.html %}
+
+    {% comment %}
     {% include modals.html %}
+    {% endcomment %}
+
     {% include js.html %}
 
     </body>

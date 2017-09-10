@@ -282,6 +282,42 @@ header {
     -o-background-size: cover;
 }
 
+header .promotion-box {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+header .promotion-box .fa {
+    color: #{{ site.data.template.color.primary }};
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+header .promotion-box .promotion-header {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 64px;
+    line-height: 64px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+header .promotion-box .promotion-location {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+header .promotion-box .promotion-datetime {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
