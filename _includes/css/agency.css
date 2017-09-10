@@ -317,6 +317,10 @@ header .promotion-box .promotion-datetime {
     line-height: 32px;
 }
 
+header .promotion-box .promotion-location-datetime {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 
 header .intro-text {
     padding-top: 100px;
