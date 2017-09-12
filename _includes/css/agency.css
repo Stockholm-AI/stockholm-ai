@@ -676,6 +676,26 @@ section h3.section-subheading {
     }
 }
 
+.person {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.person img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.person h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.person p {
+    margin-top: 0;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;

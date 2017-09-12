@@ -1,49 +1,46 @@
-url: https://localhost:4000
+url: https://localhost:4000 
 
 # Site settings
 title: Stockholm.AI
 email: info@stockholm.ai
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Stockholm.AI is a non-profit organization with the goal to improve the AI community in Stockholm"
 
 organization:
     name: Stockholm.AI
     webadmin:
         mail: info@stockholm.ai
 
+
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Ricky Helgesson
+  pic: ricky-helgesson.jpg
+  position: CEO at Univrses
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
+      url: https://www.linkedin.com/in/rickyhelgesson/ 
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://twitter.com/rickyhelgesson 
+
+- name: Magnus Nordin
+  pic: magnus-nordin.jpg
+  position: Technical Director, SEED / EA
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/magnus-nordin-10393b1/
+    - title: twitter
+      url: https://twitter.com/magnord
+
+- name: Oskar Juhlin
+  pic: oskar-juhlin.jpg
+  position: Professor at Stockholm University
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/oskar-juhlin-43a102/
+    - title: twitter
+      url: https://twitter.com/oskarju
+
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
