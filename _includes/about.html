@@ -4,73 +4,53 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">
+                        Stockholm.AI is an independent nonprofit organization
+                        created by the community for the community.<br><br>
+
+                        <b>Mission Statements</b><br>
+                        Support and bring together: hobbyists, academics, industry and investors in AI in the Stockholm area.<br>
+                        Assist in Stockholm being a global hub for companies and research in AI.<br>
+                        Spread knowledge and support meetings on AI in the Stockholm area.<br>
+
+                    </h3>
                 </div>
+            </div>
+            <!--
+                            Spread knowledge on and support meetings on AI in the Stockholm area.
+                            Assist in Stockholm being a global hub for companies and research in AI.
+                            Support and bring together: hobbyists, academics, industry and investors in AI in the Stockholm area.
+            -->
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        {% for event in site.data.timeline %}
+                            <li class="{% cycle '', 'timeline-inverted' %}">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/{{ event.image }}" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>{{ event.date }}</h4>
+                                        <h4 class="subheading">{{ event.title }}</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">
+                                            {{ event.text }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        {% endfor %}
+
+                        <li class="">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>
+                                    Be Part<br>
+                                    Of Our<br>
+                                    Story!
+                                </h4>
                             </div>
                         </li>
                     </ul>
