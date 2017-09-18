@@ -1,7 +1,7 @@
 ---
 title: "Study Group #1"
 subtitle: Asynchronous RNN & Style Transfer
-layout: default
+layout: event
 modal-id: 1
 date: 2017-06-01
 img: study-group-1.jpg
@@ -10,49 +10,28 @@ alt: image-alt
 project-date: 1 June 2017
 client: Start Bootstrap
 category: study-group
-description: "
-    <h3>Talk #1</h3>
-    <h5>Application of RNNs to Multiple Asynchronous Event-Driven Data Streams</h5>
-    <p>
-    Anders Huss, Machine Learning Team Lead at Watty (watty.io)
-    </p>
-    
-    <h5>The talk</h5>
-    <p>
-    In most school-book examples, RNNs are applied on a single stream of (typically regular) data such as text or sound/video with a fixed sampling rate. However, reality is full of cases where one need to combine multiple streams of data into a single model - streams that might be event-driven and with great variation in frequency as well as content. This could for example be the case for the control system of a self driving car that receives input from many different sensors, or if we want to apply predictive modelling based on any event-driven micro service system.
-    </p>
-    
-    <p>
-    In this session we’ll explore how one can apply RNN in such cases. There will be a hands on demo of it can be done end-to-end by utilising the concept of \"dynamic computational graphs\" with TensorFlow Fold (github.com/tensorflow/fold).
-    </p> 
-
-    <h5>About Anders</h5>
-    <p>
-    Anders is a former air force pilot who stopped flying to focus on his passion for Machine Learning. He focuses mainly on time series analysis and real time systems, particularly using deep learning. 
-    </p>
-    
-    <h3>Talk #2</h3>
-    <h5>The inner workings of style transfer</h5>
-    <p>
-    Lars Lowe Sjösund, AI research engineer at Peltarion (peltarion.com) and chairman of Stockholm AI.
-    </p>
-    
-    <h5>The talk</h5>
-    <p>
-    Most people have seen style transfer in action, but how does it really work? In this talk we’ll go through the algorithm from the seminal paper by Gatys, and also some of the more recent improvements to the technique. 
-    </p>
-    
-    <h5>Recommended readings<h5>
-    <ul>
-    <li>
-    <a href=\"https://arxiv.org/abs/1508.06576\">A Neural Algorithm of Artistic Style</a>
-    </li>
-    <li>
-    <a href=\"http://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf\">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>
-    </li>
-    </ul>
-   " 
+description: "" 
 
 ---
+## Talk #1
+#### Application of RNNs to Multiple Asynchronous Event-Driven Data Streams
+Anders Huss, Machine Learning Team Lead at Watty ([watty.io](watty.io))
+    
+#### The talk
+In most school-book examples, RNNs are applied on a single stream of (typically regular) data such as text or sound/video with a fixed sampling rate. However, reality is full of cases where one need to combine multiple streams of data into a single model - streams that might be event-driven and with great variation in frequency as well as content. This could for example be the case for the control system of a self driving car that receives input from many different sensors, or if we want to apply predictive modelling based on any event-driven micro service system.
+    
+In this session we’ll explore how one can apply RNN in such cases. There will be a hands on demo of it can be done end-to-end by utilising the concept of \"dynamic computational graphs\" with TensorFlow Fold (github.com/tensorflow/fold).
 
-this is my content
+#### About Anders
+Anders is a former air force pilot who stopped flying to focus on his passion for Machine Learning. He focuses mainly on time series analysis and real time systems, particularly using deep learning. 
+    
+## Talk #2
+#### The inner workings of style transfer
+Lars Lowe Sjösund, AI research engineer at Peltarion ([peltarion.com](peltarion.com)) and chairman of Stockholm AI.
+    
+#### The talk
+Most people have seen style transfer in action, but how does it really work? In this talk we’ll go through the algorithm from the seminal paper by Gatys, and also some of the more recent improvements to the technique. 
+    
+### Recommended readings
+* [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
+* [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns/papers/eccv16/JohnsonECCV16.pdf)
