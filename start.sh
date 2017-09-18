@@ -21,6 +21,6 @@ function cleanup {
 
 docker volume create --name $VOLUME_NAME
 
-(docker run --detach --volume $VOLUME_NAME:/volume --name $SYNCER_NAME $SYNCER_IMAGE /bin/sh -c "git clone $REMOTE volume && while true; do git pull && sleep 1; done" || kill 0)&
+(docker run --detach --volume $VOLUME_NAME:/volume --name $SYNCER_NAME $SYNCER_IMAGE /bin/sh -c "git clone $REMOTE /volume && while true; do git pull && sleep 1; done" || kill 0)&
 
-docker run --interactive --tty --volume $VOLUME_NAME:/volume --name $SERVER_NAME $SERVER_IMAGE /bin/sh -c "jekyll serve --destination /tmp/site --source /volume"
+docker run --publish 80:4000 --interactive --tty --volume $VOLUME_NAME:/volume --name $SERVER_NAME $SERVER_IMAGE /bin/sh -c "jekyll serve --destination /tmp/site --source /volume"
