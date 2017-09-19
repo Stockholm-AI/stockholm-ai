@@ -6,7 +6,7 @@ ANY PARTICIPATION IN THIS SITE WILL CONSTITUTE ACCEPTANCE OF THIS AGREEMENT. IF 
 
 ## 1. Introduction
 
-1.1) These terms and conditions of use ('Terms of use') refer to the official website of The Stockholm AI Organization ('{{ site.organization.name }}', 'our', 'we' or 'us'), which is accessible via the address {{ site.url }} and its variations ('Website'). By using, or contributing to, the Website you ('User' or 'you') agree to these Terms of use. In particular, we draw your attention to clause 2 (Disclaimer and limitation of liability), clause 3 (Copyright and intellectual property rights) and clause 4 (Contributing to our Website). You may print and keep a copy of these Terms of use.
+1.1) These terms and conditions of use ('Terms of use') refer to the official website of The {{ site.organization.name }} Organization ('{{ site.organization.name }}', 'our', 'we' or 'us'), which is accessible via the address {{ site.url }} and its variations ('Website'). By using, or contributing to, the Website you ('User' or 'you') agree to these Terms of use. In particular, we draw your attention to clause 2 (Disclaimer and limitation of liability), clause 3 (Copyright and intellectual property rights) and clause 4 (Contributing to our Website). You may print and keep a copy of these Terms of use.
 
 1.2) Together these Terms of use, About this page and About this site sections, and any web page-specific terms and conditions that may be shown on the Website from time to time, form the entire agreement between you and us ('Agreement'). If you do not agree to be legally bound by this Agreement please leave the Website immediately. Your continued access and use of the Website will amount to acceptance of these Terms of use.
 

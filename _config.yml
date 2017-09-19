@@ -1,12 +1,12 @@
 url: https://stockholm.ai
 
 # Site settings
-title: Stockholm.AI
+title: Stockholm AI
 email: info@stockholm.ai
-description: "Stockholm.AI is a non-profit organization with the goal to improve the AI community in Stockholm"
+description: "Stockholm AI is a non-profit organization with the goal to improve the AI community in Stockholm"
 
 organization:
-    name: Stockholm.AI
+    name: Stockholm AI
     webadmin:
         mail: info@stockholm.ai
 
