@@ -11,8 +11,8 @@ project-date: 1 June 2017
 client: Start Bootstrap
 category: study-group
 description: "" 
-
 ---
+
 ## Talk #1
 #### Application of RNNs to Multiple Asynchronous Event-Driven Data Streams
 Anders Huss, Machine Learning Team Lead at Watty ([watty.io](watty.io))
