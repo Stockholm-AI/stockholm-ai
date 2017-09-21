@@ -46,15 +46,15 @@ docker run \
     $PROXY_IMAGE
 
 docker run \
-    --tty \
-    --interactive \
+    --detach \
+    --restart unless-stopped \
     --volume $SOURCE_VOLUME:/source \
     --volume $DESTINATION_VOLUME:/destination \
     --volume `pwd`/nginx_conf:/etc/nginx:ro \
     --name $SERVER_NAME \
     --user root \
     $SERVER_IMAGE \
-    /bin/sh -c "jekyll build --watch --source /source --destination /destination"
+    /bin/sh -c "[[ -f /source/_config.yml ]] && jekyll build --watch --source /source --config /source/_config.yml --destination /destination"
 
 
-docker logs --follow $SYNCER_NAME
+sleep infinity

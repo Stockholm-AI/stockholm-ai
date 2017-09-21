@@ -2,6 +2,10 @@
 
 The Stockholm.AI webpage.
 
+# Changes to `_config.yml`
+Changes to `_config.yml` does not propagate automatically, instead put changing data under `_data` and keep the truly static stuff in `_config.yml`.
+This also has the side-effect that if the `_config.yml` is missing when you start the `jekyll build --watch` it will just act like it's laking any data  and kindly compile everything with missing data (hence the `[[ -f _config ]]` check in the start script.
+
 # More Help
 
 For more details, read [documentation](http://jekyllrb.com/)
