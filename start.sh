@@ -15,20 +15,28 @@ SYNCER_IMAGE=indiehosters/git:latest
 SERVER_NAME=stockholm-ai-server-$BRANCH
 SERVER_IMAGE=jekyll/jekyll:builder
 
+MAILING_LIST_PROXY_NAME=stockholm-ai-mailing-list-proxy
+MAILING_LIST_PROXY_IMAGE=python:alpine
+
 PROXY_NAME=stockholm-ai-proxy
 PROXY_IMAGE=nginx:alpine
 
+NETWORK=stockholm-ai-network
 
 function cleanup {
     docker rm -f $SYNCER_NAME || true
     docker rm -f $PROXY_NAME || true
+    docker rm -f $MAILING_LIST_PROXY_NAME || true
     docker rm -f $SERVER_NAME || true
     docker volume rm $SOURCE_VOLUME || true
     docker volume rm $DESTINATION_VOLUME || true
+    docker network rm $NETWORK || true
 } && cleanup && trap cleanup EXIT
 
 docker volume create --name $SOURCE_VOLUME
 docker volume create --name $DESTINATION_VOLUME
+
+docker network create --driver bridge $NETWORK
 
 docker run \
     --detach \
@@ -48,6 +56,17 @@ docker run \
 docker run \
     --detach \
     --restart unless-stopped \
+    --publish 8000:8000 \
+    --network $NETWORK \
+    --name $MAILING_LIST_PROXY_NAME \
+    $MAILING_LIST_PROXY_IMAGE \
+    /bin/sh -c "pip install requests Flask && python -m http.server"
+
+
+docker run \
+    --detach \
+    --restart unless-stopped \
+    --network $NETWORK \
     --volume $SOURCE_VOLUME:/source \
     --volume $DESTINATION_VOLUME:/destination \
     --volume `pwd`/nginx_conf:/etc/nginx:ro \
