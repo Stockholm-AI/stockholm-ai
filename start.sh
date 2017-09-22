@@ -15,8 +15,8 @@ SYNCER_IMAGE=indiehosters/git:latest
 SERVER_NAME=stockholm-ai-server-$BRANCH
 SERVER_IMAGE=jekyll/jekyll:builder
 
-MAILING_LIST_PROXY_NAME=stockholm-ai-mailing-list-proxy
-MAILING_LIST_PROXY_IMAGE=python:alpine
+API_NAME=stockholm-ai-api
+API_IMAGE=python:alpine
 
 PROXY_NAME=stockholm-ai-proxy
 PROXY_IMAGE=nginx:alpine
@@ -58,8 +58,9 @@ docker run \
     --restart unless-stopped \
     --publish 8000:8000 \
     --network $NETWORK \
-    --name $MAILING_LIST_PROXY_NAME \
-    $MAILING_LIST_PROXY_IMAGE \
+    --volume `pwd`/_api/api.py:/api.py \
+    --name $API_NAME \
+    $API_IMAGE \
     /bin/sh -c "pip install requests Flask && python -m http.server"
 
 
