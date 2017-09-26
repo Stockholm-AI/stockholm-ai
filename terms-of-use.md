@@ -6,23 +6,23 @@ ANY PARTICIPATION IN THIS SITE WILL CONSTITUTE ACCEPTANCE OF THIS AGREEMENT. IF 
 
 ## 1. Introduction
 
-1.1) These terms and conditions of use ('Terms of use') refer to the official website of The {{ site.organization.name }} Organization ('{{ site.organization.name }}', 'our', 'we' or 'us'), which is accessible via the address {{ site.url }} and its variations ('Website'). By using, or contributing to, the Website you ('User' or 'you') agree to these Terms of use. In particular, we draw your attention to clause 2 (Disclaimer and limitation of liability), clause 3 (Copyright and intellectual property rights) and clause 4 (Contributing to our Website). You may print and keep a copy of these Terms of use.
+1.1) These terms and conditions of use ('Terms of use') refer to the official website of The {{ site.data.organization.name }} Organization ('{{ site.data.organization.name }}', 'our', 'we' or 'us'), which is accessible via the address {{ site.data.organization.url }} and its variations ('Website'). By using, or contributing to, the Website you ('User' or 'you') agree to these Terms of use. In particular, we draw your attention to clause 2 (Disclaimer and limitation of liability), clause 3 (Copyright and intellectual property rights) and clause 4 (Contributing to our Website). You may print and keep a copy of these Terms of use.
 
 1.2) Together these Terms of use, About this page and About this site sections, and any web page-specific terms and conditions that may be shown on the Website from time to time, form the entire agreement between you and us ('Agreement'). If you do not agree to be legally bound by this Agreement please leave the Website immediately. Your continued access and use of the Website will amount to acceptance of these Terms of use.
 
-1.3) {{ site.organization.name }} reserves a right to change the Agreement at any time and will post changes to the 'Changes' section in this document if changes are made. You should review these Terms of use on a regular basis to ensure that you are aware of any changes made as you will be legally bound by any amended terms if you continue to use the Website after the changes.
+1.3) {{ site.data.organization.name }} reserves a right to change the Agreement at any time and will post changes to the 'Changes' section in this document if changes are made. You should review these Terms of use on a regular basis to ensure that you are aware of any changes made as you will be legally bound by any amended terms if you continue to use the Website after the changes.
 
 ## 2. Disclaiming and limitations of liability
 
-2.1) {{ site.organization.name }} does its best to ensure that all information on the Website is accurate. If you find any inaccurate information on the Website please let {{ site.organization.name }} know by sending an email to Web Administrators at {{ site.organization.webadmin.mail }} and we will correct it, where we agree, as soon as practicable.
+2.1) {{ site.data.organization.name }} does its best to ensure that all information on the Website is accurate. If you find any inaccurate information on the Website please let {{ site.data.organization.name }} know by sending an email to Web Administrators at {{ site.data.organization.webadmin.mail }} and we will correct it, where we agree, as soon as practicable.
 
-2.2) {{ site.organization.name }} gives no warranty or assurance about the content of the Website. As the Website is under constant development its contents may be incorrect or out-of-date and are subject to change without notice. While {{ site.organization.name }} makes every effort to ensure that the content of the Website is accurate, {{ site.organization.name }} cannot accept liability for the accuracy of all content at any given point in time.
+2.2) {{ site.data.organization.name }} gives no warranty or assurance about the content of the Website. As the Website is under constant development its contents may be incorrect or out-of-date and are subject to change without notice. While {{ site.data.organization.name }} makes every effort to ensure that the content of the Website is accurate, {{ site.data.organization.name }} cannot accept liability for the accuracy of all content at any given point in time.
 
-2.3) {{ site.organization.name }} makes every effort to ensure that its computer infrastructure is error- and virus-free but does not warrant that any material available for downloading from the Website will be free from infection, viruses and/ or other code that has contaminating or destructive properties. You are responsible for implementing sufficient procedures and virus checks (including anti-virus and other security checks) to satisfy your particular requirements for the accuracy of data input and output.
+2.3) {{ site.data.organization.name }} makes every effort to ensure that its computer infrastructure is error- and virus-free but does not warrant that any material available for downloading from the Website will be free from infection, viruses and/ or other code that has contaminating or destructive properties. You are responsible for implementing sufficient procedures and virus checks (including anti-virus and other security checks) to satisfy your particular requirements for the accuracy of data input and output.
 
-2.4) Neither {{ site.organization.name }} nor any of its agents, employees and sub-contractors shall be liable to you or any other party for any claim, loss, demand or damages whatsoever (whether such claims, loss, demands or damages were foreseeable, known or otherwise) arising out of or in connection with the use of the Website or information, content or materials included on the Website.
+2.4) Neither {{ site.data.organization.name }} nor any of its agents, employees and sub-contractors shall be liable to you or any other party for any claim, loss, demand or damages whatsoever (whether such claims, loss, demands or damages were foreseeable, known or otherwise) arising out of or in connection with the use of the Website or information, content or materials included on the Website.
 
-2.5) In no event shall {{ site.organization.name }} or any of its agents, employees or sub-contractors be liable to you for any indirect or consequential loss or damage including, without limitation, any;
+2.5) In no event shall {{ site.data.organization.name }} or any of its agents, employees or sub-contractors be liable to you for any indirect or consequential loss or damage including, without limitation, any;
 * loss of actual or anticipated profits (including loss of profits on contracts);
 * loss of revenue;
 * loss of business;
@@ -34,7 +34,7 @@ ANY PARTICIPATION IN THIS SITE WILL CONSTITUTE ACCEPTANCE OF THIS AGREEMENT. IF 
 * loss of use of money or otherwise,
 and whether or not advised of the possibility of such claim, loss, demand or damages and arising in tort (including negligence), contract or otherwise, to the fullest extent permitted by law.
 
-2.6) The Website provides hypertext links to other sites operated by other people. Using such a link means you are leaving the Website. {{ site.organization.name }} takes no responsibility for, and gives no warranties, endorsements, guarantees or representations in respect of, linked sites. {{ site.organization.name }} is not responsible for the privacy practices, nor do we accept any liability in connection with the content of, such websites, including those of our group entities, which will in some cases have their own privacy policies tailored for the particular business practices and educational sectors in which they operate. Any concerns regarding any external link should be directed to its website administrator or web master.
+2.6) The Website provides hypertext links to other sites operated by other people. Using such a link means you are leaving the Website. {{ site.data.organization.name }} takes no responsibility for, and gives no warranties, endorsements, guarantees or representations in respect of, linked sites. {{ site.data.organization.name }} is not responsible for the privacy practices, nor do we accept any liability in connection with the content of, such websites, including those of our group entities, which will in some cases have their own privacy policies tailored for the particular business practices and educational sectors in which they operate. Any concerns regarding any external link should be directed to its website administrator or web master.
 
 2.7) We are a distributor (and not a publisher) of content supplied by third parties and users of the internet. Any opinions, advice, statements, services, offers, or other information or content expressed or made available by third parties, including information providers, or users, are those of the authors or distributors and not of us. We do not necessarily endorse nor are we responsible for the accuracy or reliability of any opinion, advice or statement made on the Website.
 
@@ -42,8 +42,8 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 
 2.9) If you make an arrangement with anyone named in or connected with the Website this is at your sole risk.
 
-2.10) Nothing in this Agreement excludes or limits {{ site.organization.name }}'s liability for:
-* death or personal injury caused by {{ site.organization.name }}'s negligence; or
+2.10) Nothing in this Agreement excludes or limits {{ site.data.organization.name }}'s liability for:
+* death or personal injury caused by {{ site.data.organization.name }}'s negligence; or
 * fraud or fraudulent misrepresentation; or
 * the tort of deceit; or
 * any other liability which may not be limited or excluded by law.
@@ -51,29 +51,29 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 ## 3. Copyright and Intellectual Property Rights
 3.1) The Website contains copyright material, trade names and marks and other proprietary information, including, but not limited to, text, software, photos and graphics, and may in future include video, graphics, music and sound ('Content'). The Content is protected by copyright law, registered and unregistered trade marks, database rights and other intellectual property rights.
 
-3.2) {{ site.organization.name }}, its licensors, or authorised contributors own the copyright, database right and other intellectual property rights in the selection, coordination, arrangement and enhancement of such Content, as well as in the Content original to it. You may not modify, publish, transmit, participate in the transfer or sale of, create derivative works from, or in any way exploit, any of the Content, in whole or in part except as provided in these Terms of use.
+3.2) {{ site.data.organization.name }}, its licensors, or authorised contributors own the copyright, database right and other intellectual property rights in the selection, coordination, arrangement and enhancement of such Content, as well as in the Content original to it. You may not modify, publish, transmit, participate in the transfer or sale of, create derivative works from, or in any way exploit, any of the Content, in whole or in part except as provided in these Terms of use.
 
 3.3) You may download information from the Website for your own personal use only. Except as otherwise expressly permitted under copyright law, no copying, redistribution, retransmission, publication or commercial exploitation of downloaded material will be permitted without our express permission or that of the copyright owner. In the event of any permitted copying, redistribution or publication of copyright material, no changes in or deletion of author attribution, trademark legend or copyright notice shall be made. You acknowledge that you do not acquire any ownership rights by downloading copyright material.
 
 
 ## 4. Contributing to our Website
-4.1) Where you elect, or are invited, to submit any contribution or material to the Website (including any text, message boards, photographs, graphics, video, audio or logo) ('Contribution') or otherwise consent to the use of the Contribution, then by submitting the Contribution or consenting to its use, you grant {{ site.organization.name }} a perpetual, royalty-free, non-exclusive license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform, play, make available to the public, and exercise all copyright and publicity rights with respect to your Contribution worldwide and/ or to incorporate your Contribution in other works in any media now known or later developed for the full term of any rights that may exist in your Contribution. If you do not want to grant to {{ site.organization.name }} the rights set out above, please do not submit your Contribution to the Website. The {{ site.organization.name }} shall have no liability to you for any misuse by any third party of any Contribution that is distributed by us through the Website or in respect of any infringement of the intellectual property rights in any Contribution by any third party.
+4.1) Where you elect, or are invited, to submit any contribution or material to the Website (including any text, message boards, photographs, graphics, video, audio or logo) ('Contribution') or otherwise consent to the use of the Contribution, then by submitting the Contribution or consenting to its use, you grant {{ site.data.organization.name }} a perpetual, royalty-free, non-exclusive license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform, play, make available to the public, and exercise all copyright and publicity rights with respect to your Contribution worldwide and/ or to incorporate your Contribution in other works in any media now known or later developed for the full term of any rights that may exist in your Contribution. If you do not want to grant to {{ site.data.organization.name }} the rights set out above, please do not submit your Contribution to the Website. The {{ site.data.organization.name }} shall have no liability to you for any misuse by any third party of any Contribution that is distributed by us through the Website or in respect of any infringement of the intellectual property rights in any Contribution by any third party.
 
 4.2) By submitting your Contribution to the Website, you:
 * warrant and represent that your Contribution:
-  + is your own original work and that you have the right to make it available to {{ site.organization.name }} for all the purposes specified above and that it does not breach or infringe anyone else's rights such as copyright or in is in any way illegal;
+  + is your own original work and that you have the right to make it available to {{ site.data.organization.name }} for all the purposes specified above and that it does not breach or infringe anyone else's rights such as copyright or in is in any way illegal;
   + is not defamatory, libellous, obscene, menacing, threatening, offensive, abusive, fraudulent or criminal;
   + will not and does not contravene any relevant local, national or international law or incite or encourage the contravention of any such law;
-  + is not related to the conduct of a business, unless explictely permited by {{ site.organization.namee }};
-  + does not advertise or market anything in any way, unless explictely permited by {{ site.organization.name }}; and
+  + is not related to the conduct of a business, unless explictely permited by {{ site.data.organization.namee }};
+  + does not advertise or market anything in any way, unless explictely permited by {{ site.data.organization.name }}; and
   + is not otherwise offensive;
-* agree to indemnify and keep {{ site.organization.name }} indemnified on demand against all legal fees, damages and other expenses that may be incurred by {{ site.organization.name }} as a result of your breach of the above warranty; and 
+* agree to indemnify and keep {{ site.data.organization.name }} indemnified on demand against all legal fees, damages and other expenses that may be incurred by {{ site.data.organization.name }} as a result of your breach of the above warranty; and 
 * agree at all times to follow our message board rules of posting, which will be shown next to the message board;
 * agree to waive any moral rights in your Contribution for the purposes of its submission to and publication on the Website and the purposes specified above to the fullest extent permitted by law.
 
 4.3) We reserve the right to identify you in response to a court order or threat of legal action.
 
-4.4) If you see any information on the Website that breaches your or anyone else's rights or may be illegal, defamatory or otherwise should be removed, let us know immediately by e-mailing Web Services at {{ site.organization.webadmin.mail }} and, where we agree, we shall do our best to remove it as soon as possible.
+4.4) If you see any information on the Website that breaches your or anyone else's rights or may be illegal, defamatory or otherwise should be removed, let us know immediately by e-mailing Web Services at {{ site.data.organization.webadmin.mail }} and, where we agree, we shall do our best to remove it as soon as possible.
 
 4.5) We reserve the right to remove any Contribution from the Website (including any text, message board content, photographs, graphics, video, audio or logo) at any time and without notice and shall not be obliged to give a reason for doing so. In the event that we remove any Contribution from the Website we shall in no way be liable for any loss, liability, cost or expense suffered by you as a result (whether direct or indirect) of such removal.
 
@@ -96,9 +96,9 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 6.2) You must notify us immediately of any unauthorised use of them or any other breach of security regarding our Website that comes to your attention.
 
 # 7. Accessability
-7.1) {{ site.organization.name }} seeks to ensure that people are treated equally regardless of age, disability, race, nationality, ethnic or national origin, gender, religion, sexual orientation or personal circumstances. {{ site.organization.name }} does its best to ensure that the Website is accessible to all its users and potential users, including but not limited to users with disabilities (eg visual impairments, cognitive impairments, motor impairments etc); users for whom English is a second language; users of various software; or any other users who may need to use the Website.
+7.1) {{ site.data.organization.name }} seeks to ensure that people are treated equally regardless of age, disability, race, nationality, ethnic or national origin, gender, religion, sexual orientation or personal circumstances. {{ site.data.organization.name }} does its best to ensure that the Website is accessible to all its users and potential users, including but not limited to users with disabilities (eg visual impairments, cognitive impairments, motor impairments etc); users for whom English is a second language; users of various software; or any other users who may need to use the Website.
 
-7.2) If you need any advice on making your web content and services accessible, please contact the Web Services Team ({{ site.organization.webadmin.mail }}).
+7.2) If you need any advice on making your web content and services accessible, please contact the Web Services Team ({{ site.data.organization.webadmin.mail }}).
 
 7.3) Access to our Website is permitted on a temporary basis, and we reserve the right to withdraw or amend the service we provide on the Website without notice (see below). We will not be liable if for any reason the Website is unavailable at any time or for any period.
 
@@ -120,14 +120,14 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 8.7) We reserve the right to bar Users from the Website and/ or specific web pages, on a permanent or temporary basis at our discretion. Any such User shall be notified and must not then attempt to use the Website under any other name or through any other User.
 
 # 9. Linking to the website
-9.1) You may link your website to the home page of the Website at {{ site.url }}, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists. {{ site.organization.name }} reserves the right on demand, as it in its discretion thinks fit, to direct you to remove any links to the Website from your website and you shall promptly comply with any such direction or any other lawful direction that we may give to you in relation to the placing of any such link on your website.
+9.1) You may link your website to the home page of the Website at {{ site.data.organization.url }}, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists. {{ site.data.organization.name }} reserves the right on demand, as it in its discretion thinks fit, to direct you to remove any links to the Website from your website and you shall promptly comply with any such direction or any other lawful direction that we may give to you in relation to the placing of any such link on your website.
 
 9.2) You must not establish a link from any website that is not owned by you.
 
 9.3) Our Website (or any part of its or content on it) must not be framed on any other site, nor may you create a link to any part of the Website other than the home page. We reserve the right to withdraw linking permission without notice. The website from which you are linking must comply in all respects with the content standards set out in paragraph 4 above.
 
 # 10. Trademarks
-10.1) {{ site.organization.name }} is a Swedish registered trademark of {{ site.organization.name }}.
+10.1) {{ site.data.organization.name }} is a Swedish registered trademark of {{ site.data.organization.name }}.
 
 # Changes
 * None

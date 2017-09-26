@@ -1,0 +1,27 @@
+name: Stockholm AI
+description: "Stockholm AI is a non-profit organization with the goal to improve the AI community in Stockholm"
+
+url: https://stockholm.ai
+
+webadmin:
+  mail: info@stockholm.ai
+
+address:
+  - line: Artillerigatan 87 LGH 1006
+  - line: 115 30 Stockholm
+
+social:
+  - title: twitter
+    url: https://twitter.com/sthlmai
+  - title: facebook
+    url: https://www.facebook.com/groups/stockholmai
+  - title: github
+    url: http://github.com/Stockholm-AI
+  - title: meetup
+    url: https://www.meetup.com/StockholmAI
+  - title: linkedin
+    url: https://www.linkedin.com/company/stockholm.ai
+  - title: instagram
+    url: https://www.instagram.com/stockholm_ai/
+  #- title: crunchbase
+  #  url: https://www.crunchbase.com/organization/stockholm-ai
