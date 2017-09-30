@@ -1,0 +1,14 @@
+<aside class="sponsors">
+    <div class="container">
+        <div class="row">
+            {% for sponsor in site.data.sponsors %}
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ sponsor.url }}">
+                        <img src="img/logos/{{ sponsor.pic }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</aside>
