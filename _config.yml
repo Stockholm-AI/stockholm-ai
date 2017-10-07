@@ -1,11 +1,14 @@
 url: https://stockholm.ai
 
 collections:
-  collections_dir: collections
+  peoples:
+    output: true
+    permalink: /:collection/:title
   meetups:
     output: true
     permalink: /:collection/:title
 
+# collections_dir: collections
 
 #defaults:
 #  - scope: ""

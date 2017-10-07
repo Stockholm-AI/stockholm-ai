@@ -596,8 +596,8 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        margin-bottom: 20px;
+        min-height: 20px;
     }
 
     .timeline>li .timeline-panel {

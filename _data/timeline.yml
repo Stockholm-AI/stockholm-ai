@@ -1,9 +1,24 @@
 - date: March 2015
-  title: Our Humble Beginnings
+  title: First AI Summit
   text: Yaddayadda test text
   image: 1.jpg
+
+- date: April 2016
+  title: First Weekly Hack
+  text: Yaddayadda test text
+  image: 2.jpg
 
 - date: January 2017
   title: A non-profit is Born
   text: Yadda another test text
+  image: 1.jpg
+
+- date: June 2017
+  title: First Study Group
+  text: Yadda another test text
   image: 2.jpg
+
+- date: September 2017
+  title: Facebook Group Reaches 600 members
+  text: Yadda another test text
+  image: 1.jpg
