@@ -2,11 +2,10 @@
 <html>
   {% include head.html %}
     <body id="page-top" class="index">
-        {% assign collection = site.collections | where: "label", page.category | first %}
+        {% assign collection = site.collections | where: "label", page.collection | first %}
         {% assign posts = collection.docs %}
 
-
-        <h1>{{ page.category }}: {{ posts | size }}</h1>
+        <h1>{{ page.collection }}: {{ posts | size }}</h1>
         {% for post in posts %}
             <h3>post : {{ post.title }}</h3>
         {% endfor %}
