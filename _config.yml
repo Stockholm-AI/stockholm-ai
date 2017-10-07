@@ -1,5 +1,20 @@
 url: https://stockholm.ai
 
+collections:
+  collections_dir: collections
+  meetups:
+    output: true
+    permalink: /:collection/:title
+
+
+#defaults:
+#  - scope: ""
+#      path: ""
+#      type: meetups
+#    values:
+#      layout: meetup
+      
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
