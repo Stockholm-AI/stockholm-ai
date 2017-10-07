@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  {% assign posts = site.categories[page.category] %}
-
     <body id="page-top" class="index">
-        {% include promotion.html %}
+        {% assign collection = site.collections | where: "label", page.category %}
+        {{ collection }} 
+        {{ site.meetups }} 
+
+        <h1>{{ page.category }}</h1>
         {% for post in posts %}
             <h3>post : {{ post.title }}</h3>
         {% endfor %}
 
         {{ content }}
+
+        {% include promotion.html %}
 
         {% include footer.html %}
         {% include js.html %}

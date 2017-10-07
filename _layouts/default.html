@@ -38,11 +38,17 @@
                 <ul>
                 {% for collection in site.collections %}
                     <li>{{ collection.label }}</li>
-                    {% for collection in site.collections %}
-                    {% endfor %}
                 {% endfor %}
                 </ul>
 
+
+            <h3>peoples</h3>
+            <ul>
+            {{ site.collections }}
+            {% for people in site.peoples %}
+            <li> {{ people.name }} : {{ people.content }} </li>
+            {% endfor %}
+            </ul>
             <hr>
         {% endif %}
 
