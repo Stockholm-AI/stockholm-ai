@@ -4,5 +4,5 @@ pic: anders-arpteg.jpg
 position: Principal Data Scientist at Peltarion
 social:
   - title: linkedin
-  url: https://www.linkedin.com/in/andersarpteg/
+    url: https://www.linkedin.com/in/andersarpteg/
 ---
