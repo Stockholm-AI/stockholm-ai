@@ -1,7 +1,7 @@
 url: https://stockholm.ai
 
 collections:
-  peoples:
+  people:
     output: true
     permalink: /:collection/:title
   meetups:

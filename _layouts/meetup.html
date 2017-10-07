@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+<div class="meetup">
+    <header class="meetup-header">
+        <h1 class="meetup-title"> {{ page.title }}</h1>
+        <p class="meetup-meta">
+            meta
+        </p>
+    </header>
+    <article class="post-content">
+        {{ content }}
+    </article>
 
-  {% include head.html %}
-
-
-    <body id="page-top" class="index">
-
-    {% include promotion.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-    {% include js.html %}
-
-    </body>
-</html>
+</div>
