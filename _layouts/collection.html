@@ -5,14 +5,13 @@
         {% assign collection = site.collections | where: "label", page.collection | first %}
         {% assign posts = collection.docs %}
 
-        <h1>{{ page.collection }}: {{ posts | size }}</h1>
-        {% for post in posts %}
+        {% include navigation.html %}
+        {% include promotion.html %}
+
+        <h1>{{ page.collection }}</h1>
+        {% for post in posts reversed %}
             <h3>post : {{ post.title }}</h3>
         {% endfor %}
-
-        {{ content }}
-
-        {% include promotion.html %}
 
         {% include footer.html %}
         {% include js.html %}

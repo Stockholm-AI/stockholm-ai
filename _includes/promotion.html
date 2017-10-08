@@ -1,88 +1,45 @@
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{ site.data.organization.name }}</a>
-            </div>
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="promotion-box">
+            <h2 class="section-heading">Upcoming Event</h2>
+            <div class="promotion-header">Meetup #5: AI in virtual worlds</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#what-we-do">What We Do</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#membership">Become a Member</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#mailing-list">Mailing List</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+            <!--Do you love AI? Come and network, get inspired and learn something new! -->
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="promotion-box">
-                <h2 class="section-heading">Upcoming Event</h2>
-                <div class="promotion-header">Meetup #5: AI in virtual worlds</div>
+            {% for speaker in site.people %}
+            <div class="col-sm-4">
+                <div class="person speaker">
+                    <img src="img/people/{{ speaker.pic }}" class="img-responsive img-circle" alt="">
+                    <h4>{{ speaker.name }}</h4>
+                    <p class="text-primary">{{ speaker.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        <!-- TODO link this properly, make a people page, using something similar to https://github.com/avillafiorita/jekyll-datapage_gen
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </li>
+                        -->
+                        {% for network in speaker.social %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
 
-                <!--Do you love AI? Come and network, get inspired and learn something new! -->
-
-                {% for speaker in site.people %}
-                <div class="col-sm-4">
-                    <div class="person speaker">
-                        <img src="img/people/{{ speaker.pic }}" class="img-responsive img-circle" alt="">
-                        <h4>{{ speaker.name }}</h4>
-                        <p class="text-primary">{{ speaker.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            <!-- TODO link this properly, make a people page, using something similar to https://github.com/avillafiorita/jekyll-datapage_gen
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-user"></i>
-                                </a>
-                            </li>
-                            -->
-                            {% for network in speaker.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-                {% endfor %}
-
-                <div class="promotion-location-datetime">
-                    <div class="promotion-location"><i class="fa fa-map-marker"></i>Norstedts, Tryckerigatan 4</div>
-                    <div class="promotion-datetime"><i class="fa fa-calendar"></i>18:00-21:00, 4th of October</div>
-                </div>
-
-                <a href="https://www.eventbrite.co.uk/e/stockholmai-summit-5-tickets-37992579829" class="page-scroll btn btn-xl">Read More</a>
             </div>
+            {% endfor %}
+
+            <div class="promotion-location-datetime">
+                <div class="promotion-location"><i class="fa fa-map-marker"></i>Norstedts, Tryckerigatan 4</div>
+                <div class="promotion-datetime"><i class="fa fa-calendar"></i>18:00-21:00, 4th of October</div>
+            </div>
+
+            <a href="https://www.eventbrite.co.uk/e/stockholmai-summit-5-tickets-37992579829" class="page-scroll btn btn-xl">Read More</a>
         </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+    </div>
+</header>
