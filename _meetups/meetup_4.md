@@ -1,7 +1,6 @@
 ---
 title: meetup 4
 layout: meetup
-key: value4
 speakers:
   - gene-kogan
   - tero-parviainen

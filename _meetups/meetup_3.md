@@ -1,7 +1,6 @@
 ---
 title: meetup 3
 layout: meetup
-key: value3
 speakers:
   - mikael-huss
   - jillian-schwiep
