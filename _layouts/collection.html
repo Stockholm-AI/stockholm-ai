@@ -9,8 +9,45 @@
         {% include promotion.html %}
 
         <h1>{{ page.collection }}</h1>
+
         {% for post in posts reversed %}
-            <h3>post : {{ post.title }}</h3>
+            <article class={% cycle '', 'bg-light-gray' %}>
+                <div class="container"> <!-- TODO should this be the structure? something does not work-->
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading"> {{ post.title }} </h2>
+                        </div>
+                    </div>
+                    <div class="row text-center"  style="border-style: solid; border-width: 4px;">
+                        {% for speaker_name in post.speakers %}
+                        {% assign speaker = site.people | where: "slug", speaker_name | first %}
+                        <div class="col-md-4" style="border-style: dashed; border-width: 2px;">
+                            <div class="person speaker">
+                                <img src="img/people/{{ speaker.pic }}" class="img-responsive img-circle" alt="">
+                                <h4>{{ speaker.name }}</h4>
+                                <p class="text-primary">{{ speaker.position }}</p>
+                                <ul class="list-inline social-buttons">
+                                    <!-- TODO link this properly, make a people page, using something similar to https://github.com/avillafiorita/jekyll-datapage_gen
+                                    <li>
+                                        <a href="{{ network.url }}">
+                                            <i class="fa fa-user"></i>
+                                        </a>
+                                    </li>
+                                    -->
+                                    {% for network in speaker.social %}
+                                    <li>
+                                        <a href="{{ network.url }}">
+                                            <i class="fa fa-{{ network.title }}"></i>
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </article>
         {% endfor %}
 
         {% include footer.html %}
