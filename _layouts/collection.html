@@ -19,8 +19,8 @@
                         </div>
                     </div>
                     <div class="row text-center"  style="border-style: solid; border-width: 4px;">
-                        {% for speaker_name in post.speakers %}
-                        {% assign speaker = site.people | where: "slug", speaker_name | first %}
+                        {% for speaker_id in post.speakers %}
+                        {% assign speaker = site.people | where: "slug", speaker_id | first %}
                         <div class="col-md-4" style="border-style: dashed; border-width: 2px;">
                             <div class="person speaker">
                                 <img src="img/people/{{ speaker.pic }}" class="img-responsive img-circle" alt="">
