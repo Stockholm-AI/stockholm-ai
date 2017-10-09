@@ -13,19 +13,17 @@
                         <h4>{{ speaker.name }}</h4>
                         <p class="text-primary">{{ speaker.position }}</p>
                         <ul class="list-inline social-buttons">
-                            <!-- TODO link this properly, make a people page, using something similar to https://github.com/avillafiorita/jekyll-datapage_gen
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ speaker.url }}">
                                     <i class="fa fa-user"></i>
                                 </a>
                             </li>
-                            -->
                             {% for network in speaker.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="{{ network.url }}">
+                                        <i class="fa fa-{{ network.title }}"></i>
+                                    </a>
+                                </li>
                             {% endfor %}
 
                         </ul>
