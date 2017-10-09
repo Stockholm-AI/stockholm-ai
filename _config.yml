@@ -10,13 +10,12 @@ collections:
 
 # collections_dir: collections
 
-#defaults:
-#  - scope: ""
-#      path: ""
-#      type: meetups
-#    values:
-#      layout: meetup
-      
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: people
 
 # Build settings
 markdown: kramdown
