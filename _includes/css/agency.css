@@ -514,7 +514,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0px 20px 0px 100px;
     text-align: left;
 }
 
@@ -603,8 +603,10 @@ section h3.section-subheading {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 0px 20px 20px 30px;
         text-align: right;
+        margin-top: 40px; /* TODO margin-top is set to 20px on `@media(*) .timeline>li .timeline-panel` and there to make it more horizontally aligned without text, remove "code" duplication. it has the same margin as .timeline-image */
+        /* TODO also, is it bad to use margin here? */
     }
 
     .timeline>li .timeline-image {
@@ -622,7 +624,7 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
+        padding: 0px 30px 20px 20px;
         text-align: left;
     }
 }
@@ -634,6 +636,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
+        margin-top: 40px;
     }
 
     .timeline>li .timeline-image {
@@ -660,6 +663,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px;
+        margin-top: 40px;
     }
 
     .timeline>li .timeline-image {
@@ -684,7 +688,6 @@ section h3.section-subheading {
 
 .person img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .person h4 {
