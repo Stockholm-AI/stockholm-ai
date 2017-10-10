@@ -16,8 +16,6 @@ This also has the side-effect that if the `_config.yml` is missing when you star
 JEKYLL_ENV=debug jekyll serve
 ```
 
-
-
 # More Help
 
 For more details, read [documentation](http://jekyllrb.com/)
