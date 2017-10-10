@@ -11,11 +11,19 @@ function stop_nginx {
     echo "nginx Stopped"
 } && trap stop_nginx EXIT
 
-echo "Starting tracking master"
-while :
-do git fetch \
+function rebuild_if_changed {
+git fetch \
     && [[ $(git diff master origin/master) ]] \
     && git pull \
     && jekyll build
-sleep 1
+}
+
+echo "Start initial build"
+jekyll build
+
+echo "Starting tracking master"
+while :
+do 
+    rebuild_if_changed
+    sleep 1
 done
