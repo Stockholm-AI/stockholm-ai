@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -e
 
+# requirements:
+# - git
+# - nginx
+# - gem
+# - jekyll # (from gem)
+
+
 echo "Starting nginx .. "
 nginx -p `pwd` -c static_server/nginx.conf
 echo "nginx started"
