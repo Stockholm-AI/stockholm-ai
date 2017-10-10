@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -ex
+set -e
 
 echo "Starting nginx .. "
 nginx -p `pwd` -c static_server/nginx.conf
