@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -ex
 
 echo "Starting nginx .. "
 nginx -p `pwd` -c static_server/nginx.conf
@@ -11,19 +11,15 @@ function stop_nginx {
     echo "nginx Stopped"
 } && trap stop_nginx EXIT
 
-function rebuild_if_changed {
-git fetch \
-    && [[ $(git diff master origin/master) ]] \
-    && git pull \
-    && jekyll build
-}
-
 echo "Start initial build"
 jekyll build
 
 echo "Starting tracking master"
 while :
 do 
-    rebuild_if_changed
+    git fetch \
+        && [[ $(git diff master origin/master) ]] \
+        && git pull \
+        && jekyll build
     sleep 1
 done
