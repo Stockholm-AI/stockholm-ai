@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -e
 
-printf "Starting nginx .. "
+echo "Starting nginx .. "
 nginx -p `pwd` -c static_server/nginx.conf
-printf "Done\n"
+echo "nginx started"
 
 function stop_nginx {
-    printf "Stopping nginx .. "
+    echo "Stopping nginx .. "
     kill "$(cat /tmp/nginx.pid)"
-    printf "Done\n"
+    echo "nginx Stopped"
 } && trap stop_nginx EXIT
 
 while :
