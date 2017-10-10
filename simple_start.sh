@@ -11,6 +11,7 @@ function stop_nginx {
     echo "nginx Stopped"
 } && trap stop_nginx EXIT
 
+echo "Starting tracking master"
 while :
 do git fetch \
     && [[ $(git diff master origin/master) ]] \
