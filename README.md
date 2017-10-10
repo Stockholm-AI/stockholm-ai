@@ -1,5 +1,4 @@
 # Stockholm.AI webpage
-
 The Stockholm.AI webpage.
 
 # Changes to `_config.yml`
