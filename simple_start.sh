@@ -7,6 +7,8 @@ set -e
 # - gem
 # - jekyll # (from gem)
 
+# docker run --interactive --tty --publish 80:8080 --volume `pwd`:/stockholm-ai ubuntu:16.04 bash
+# apt-get update && apt-get install build-essential git nginx ruby ruby-dev && gem install jekyll
 
 echo "Starting nginx .. "
 nginx -p `pwd` -c static_server/nginx.conf
