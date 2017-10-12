@@ -2,7 +2,7 @@
     {% assign promotion = site.meetups | where: "slug", site.data.layout.promotion | first %}
     <div class="container">
         <div class="promotion-box">
-            <h2 class="section-heading">Upcoming Event</h2>
+            <h2 class="section-heading">Last Event</h2>
             <div class="promotion-header">{{ promotion.title }}</div>
 
             {% for speaker_id in promotion.speakers %}
