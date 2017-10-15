@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
-# requirements:
-# - git
-# - nginx
-# - gem
-# - jekyll # (from gem)
 
+# sudo yum update -y
+# sudo yum install docker tmux -y
+# sudo service docker start
+# sudo usermod -a -G docker ec2-user
 # docker run --interactive --tty --publish 80:8080 --volume `pwd`:/stockholm-ai ubuntu:16.04 bash
 # apt-get update && apt-get install build-essential git nginx ruby ruby-dev && gem install jekyll
 
