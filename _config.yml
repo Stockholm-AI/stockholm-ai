@@ -7,6 +7,9 @@ collections:
   meetups:
     output: true
     permalink: /:collection/:title
+  study-groups:
+    output: true
+    permalink: /:collection/:title
 
 # collections_dir: collections
 
@@ -21,6 +24,11 @@ defaults:
       type: meetups
     values:
       layout: meetup
+  - scope:
+      path: ""
+      type: study-groups
+    values:
+      layout: study-group
 
 # Build settings
 markdown: kramdown

@@ -1,7 +1,5 @@
 ---
-title: Study Group 4
-layout: meetup
-key: value5
+title: "Study Group #4"
 speakers:
   - anders-arpteg
   - oliver-gafvert

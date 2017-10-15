@@ -1,42 +1,48 @@
 <header>
-    {% assign promotion = site.meetups | where: "slug", site.data.layout.promotion | first %}
+    {% assign promotion = site.study-groups | where: "slug", site.data.layout.promotion | first %}
     <div class="container">
         <div class="promotion-box">
-            <h2 class="section-heading">Last Event</h2>
+            <h2 class="section-heading">Upcoming Event</h2>
             <div class="promotion-header">{{ promotion.title }}</div>
 
-            {% for speaker_id in promotion.speakers %}
-                {% assign speaker = site.people | where: "slug", speaker_id | first %}
-                <div class="col-sm-4">
-                    <div class="person speaker">
-                        <img src="/img/people/{{ speaker.pic }}" class="img-responsive img-circle" style="border: 7px solid #f1f1f1; border-radius: 100%; " alt="">
-                        <h4>{{ speaker.name }}</h4>
-                        <p class="text-primary">{{ speaker.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            <li>
-                                <a href="{{ speaker.url }}">
-                                    <i class="fa fa-user"></i>
-                                </a>
-                            </li>
-                            {% for network in speaker.social %}
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                {% for speaker_id in promotion.speakers %}
+                    {% assign speaker = site.people | where: "slug", speaker_id | first %}
+                    <div class="col-sm-4">
+                        <div class="person speaker">
+                            <img src="/img/people/{{ speaker.pic }}" class="img-responsive img-circle" style="border: 7px solid #f1f1f1; border-radius: 100%; " alt="">
+                            <h4>{{ speaker.name }}</h4>
+                            <p class="text-primary">{{ speaker.position }}</p>
+                            <ul class="list-inline social-buttons">
                                 <li>
-                                    <a href="{{ network.url }}">
-                                        <i class="fa fa-{{ network.title }}"></i>
+                                    <a href="{{ speaker.url }}">
+                                        <i class="fa fa-user"></i>
                                     </a>
                                 </li>
-                            {% endfor %}
+                                {% for network in speaker.social %}
+                                    <li>
+                                        <a href="{{ network.url }}">
+                                            <i class="fa fa-{{ network.title }}"></i>
+                                        </a>
+                                    </li>
+                                {% endfor %}
 
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
 
-            <div class="promotion-location-datetime">
-                <div class="promotion-location">
-                    <i class="fa fa-map-marker"></i>{{ promotion.location }}
-                </div>
-                <div class="promotion-datetime">
-                    <i class="fa fa-calendar"></i>{{ promotion.time }}
+            <div class="row">
+                <div class="col-xs-12 promotion-location-datetime">
+                    <div class="promotion-location">
+                        <i class="fa fa-map-marker"></i>{{ promotion.location }}
+                    </div>
+                    <div class="promotion-datetime">
+                        <i class="fa fa-calendar"></i>{{ promotion.time }}
+                    </div>
                 </div>
             </div>
 
