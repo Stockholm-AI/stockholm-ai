@@ -1,7 +1,7 @@
 ---
 title: "Study Group #5"
-location: "(TBD)"
-time: "18:00-21:00, 2th of October" # TODO proper datetime
+location: "Fyndiq, Alströmergatan 22"
+time: "18:00-20:00, 2th of November" # TODO proper datetime
 speakers:
   - erik-rehn
   - nikolaus-west
