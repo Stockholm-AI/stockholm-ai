@@ -1,7 +1,7 @@
 ---
 name: Nikolaus West
 pic: nikolaus-west.jpg
-position: Product Owner Recommendation
+position: Product Owner - Recommendation, at Volumental
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/nikolaus-west-16451856
