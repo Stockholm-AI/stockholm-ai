@@ -20,11 +20,19 @@ JEKYLL_ENV=debug jekyll serve
 ```bash
 convert first-last.jpg -resize 220x220 first-last.jpg
 ```
-# Check size
+## Check size
 ```bash
 ls img/category | xargs file
 ```
 
+# Logo
+https://fedoraproject.org/wiki/Montserrat_Fonts
+## Install the used font (Fedora)
+```bash
+sudo dnf install julietaula-montserrat-fonts
+```
+## Font style
+Bold with letter spacing of `font_size/12`.
 
 # More Help
 
