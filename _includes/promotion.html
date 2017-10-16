@@ -2,7 +2,6 @@
     {% assign promotion = site.study-groups | where: "slug", site.data.layout.promotion | first %}
     <div class="container">
         <div class="promotion-box">
-            <h2 class="section-heading">Upcoming Event</h2>
             <div class="promotion-header">{{ promotion.title }}</div>
 
             <div class="row">
@@ -16,11 +15,13 @@
                             <h4>{{ speaker.name }}</h4>
                             <p class="text-primary">{{ speaker.position }}</p>
                             <ul class="list-inline social-buttons">
+                                <!--
                                 <li>
                                     <a href="{{ speaker.url }}">
                                         <i class="fa fa-user"></i>
                                     </a>
                                 </li>
+                                -->
                                 {% for network in speaker.social %}
                                     <li>
                                         <a href="{{ network.url }}">
