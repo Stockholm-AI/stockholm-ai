@@ -46,8 +46,9 @@
                     </div>
                 </div>
             </div>
-
-            <a href="{{ promotion.tickets }}" class="page-scroll btn btn-xl">Read More</a>
+            {% if promotion.tickets %}
+                <a href="{{ promotion.tickets }}" class="page-scroll btn btn-xl">Read More</a>
+            {% endif %}
         </div>
     </div>
 </header>
