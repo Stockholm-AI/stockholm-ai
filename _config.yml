@@ -38,6 +38,7 @@ exclude:
   - LICENSE
   - README.md
   - TODO.md
+  - server/
   - supervisord.conf
 
 # Build settings
