@@ -30,6 +30,16 @@ defaults:
     values:
       layout: study-group
 
+exclude:
+  - syncer.sh
+  - start.sh
+  - CODEOWNERS
+  - Dockerfile
+  - LICENSE
+  - README.md
+  - TODO.md
+  - supervisord.conf
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
