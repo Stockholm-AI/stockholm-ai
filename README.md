@@ -1,9 +1,9 @@
 # Stockholm.AI webpage
 The Stockholm.AI webpage.
 
-# Changes to `_config.yml`
-Changes to `_config.yml` does not propagate automatically, instead put changing data under `_data` and keep the truly static stuff in `_config.yml`.
-This also has the side-effect that if the `_config.yml` is missing when you start the `jekyll build --watch` it will just act like it's laking any data  and kindly compile everything with missing data (hence the `[[ -f _config ]]` check in the start script.
+# Deploy
+* Install docker
+* `sudo ./start.sh`
 
 # Debug
 ```
@@ -34,8 +34,12 @@ sudo dnf install julietaula-montserrat-fonts
 ## Font style
 Bold with letter spacing of `font_size/12`.
 
-# More Help
+# Changes to `_config.yml`
+`NOTE: not applicable for start.sh, only jekyll serve`
+Changes to `_config.yml` does not propagate automatically with `jekyll serve`, instead put changing data under `_data` and keep the truly static stuff in `_config.yml`.
+This also has the side-effect that if the `_config.yml` is missing when you start the `jekyll build --watch` it will just act like it's laking any data  and kindly compile everything with missing data (hence the `[[ -f _config ]]` check in the start script.
 
+# More Help with Jekyll
 For more details, read [documentation](http://jekyllrb.com/)
 
 # Licensing
