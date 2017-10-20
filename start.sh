@@ -7,9 +7,12 @@ set -ex
 # sudo service docker start
 # sudo usermod -a -G docker ec2-user
 
-docker build -t stockholm-ai .
+: ${STOCKHOLM_AI_PORT:=80}
+
+docker build --tag stockholm-ai .
 docker run \
     --interactive \
     --tty \
-    --publish 80:8080 \
+    --env STOCKHOLM_AI_BRANCH \
+    --publish ${STOCKHOLM_AI_PORT}:8080 \
     stockholm-ai
