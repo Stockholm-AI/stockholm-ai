@@ -15,7 +15,7 @@ docker run \
     --tty \
     --env STOCKHOLM_AI_BRANCH \
     --volume `pwd`:/workspace/source \
-    --volume `pwd`/local_syncer.sh:/workspace/source/syncer.sh \
-    --entrypoint "/usr/bin/env bash" \
+    --volume `pwd`/server:/workspace/server \
+    --volume `pwd`/local_syncer.sh:/workspace/syncer.sh \
     --publish ${STOCKHOLM_AI_PORT}:8080 \
     stockholm-ai
