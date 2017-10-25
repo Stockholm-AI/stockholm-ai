@@ -38,11 +38,13 @@
                                     <h4>{{ speaker.name }}</h4>
                                     <p class="text-primary">{{ speaker.position }}</p>
                                     <ul class="list-inline social-buttons">
+                                    <!--
                                         <li>
                                             <a href="{{ speaker.url }}">
                                                 <i class="fa fa-user"></i>
                                             </a>
                                         </li>
+                                    -->
                                         {% for network in speaker.social %}
                                             <li>
                                                 <a href="{{ network.url }}">
