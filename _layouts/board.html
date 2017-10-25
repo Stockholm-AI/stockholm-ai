@@ -2,35 +2,18 @@
 <html>
   {% include head.html %}
     <body id="page-top" class="index">
-        {% assign collection = site.collections | where: "label", page.collection | first %}
-        {% assign posts = collection.docs %}
 
         {% include navigation.html %}
-        {% comment %} 
-            {% include promotion.html %}
-        {% endcomment %}
 
-        <!-- <h1>{{ page.collection }}</h1> -->
-
-        {% for post in posts reversed %}
             <section class={% cycle '', 'bg-light-gray' %}>
                 <div class="container"> <!-- TODO should this be the structure? something does not work-->
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">{{ post.title }}</h2>
+                            <h1 class="section-heading">Board {{ site.data.board.current.year }}</h1>
                         </div>
                     </div>
                     <div class="row text-center">
-                        {% assign n_speakers = post.speakers | size %}
-                        {% case n_speakers %}
-                            {% when 2 %}
-                                <div class="col-sm-2"></div>
-                            {% when 1 %}
-                                <div class="col-sm-4"></div>
-                            {% else %}
-                        {% endcase %}
-
-                        {% for speaker_id in post.speakers %}
+                        {% for speaker_id in site.data.board.current.members %}
                             {% assign speaker = site.people | where: "slug", speaker_id | first %}
                             <div class="col-sm-4">
                                 <div class="person speaker">
@@ -57,7 +40,6 @@
                     </div>
                 </div>
             </section>
-        {% endfor %}
 
         {% include footer.html %}
         {% include js.html %}

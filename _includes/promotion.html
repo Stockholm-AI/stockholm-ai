@@ -5,8 +5,14 @@
             <div class="promotion-header">{{ promotion.title }}</div>
 
             <div class="row">
-                <div class="col-sm-2">
-                </div>
+                {% assign n_speakers = promotion.speakers | size %}
+                    {% case n_speakers %}
+                        {% when 2 %}
+                            <div class="col-sm-2"></div>
+                        {% when 1 %}
+                            <div class="col-sm-4"></div>
+                    {% else %}
+                {% endcase %}
                 {% for speaker_id in promotion.speakers %}
                     {% assign speaker = site.people | where: "slug", speaker_id | first %}
                     <div class="col-sm-4">

@@ -1,7 +1,7 @@
 ---
 name: Anna Nordell
 pic: anna-nordell.jpg
-position: CMO & Founding Team at Sana, Board Member of Stockholm AI
+position: CMO & Founding Team at Sana, Head of Sponsoring at Stockholm AI
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/anna-nordell-b381574/
