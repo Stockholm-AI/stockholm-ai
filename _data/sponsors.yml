@@ -1,3 +1,4 @@
 - name: Stockholm Business Region
   pic: stockholm-business-region.jpg
   url: https://www.stockholmbusinessregion.com
+  active: false
