@@ -5,46 +5,6 @@
         {% include navigation.html %}
         {% include promotion.html %}
 
-        {% if jekyll.environment == "debug" %}
-            <hr>
-            <h1>DEBUG</h1>
-
-            <h3>Pages</h3>
-                <ul>
-                {% for page in site.pages %}
-                    <li>{{ page.name }}</li>
-                {% endfor %}
-                </ul>
-
-            <h3>Posts</h3>
-                <ul>
-                {% for post in site.posts %}
-                    <li>{{ post.title }}</li>
-                {% endfor %}
-                </ul>
-
-            <h3>categories</h3>
-                <ul>
-                {% for category in site.categories %}
-                    <li>{{ category[0] }}</li>
-                    <ul>
-                        {% for post in category[1] %}
-                            <li>{{ post.content }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endfor %}
-                </ul>
-            
-            <h3>collections</h3>
-                <ul>
-                {% for collection in site.collections %}
-                    <li>{{ collection.label }}</li>
-                {% endfor %}
-                </ul>
-
-            <hr>
-        {% endif %}
-
         {% include what_we_do.html %}
         {% include about.html %}
 

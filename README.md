@@ -20,10 +20,17 @@ JEKYLL_ENV=debug jekyll serve
 ```
 
 # Images
-## Resize
+## Resize Faces
 ```bash
 convert first-last.jpg -resize 220x220 first-last.jpg
 ```
+
+## Resize photo
+```bash
+convert photo.jpg -resize 800 photo.jpg
+```
+and hold your thumbs that the height will be relatively sane.
+
 ## Check size
 ```bash
 ls img/category | xargs file
