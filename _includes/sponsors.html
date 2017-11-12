@@ -11,11 +11,16 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="img/events/IMG_3024.JPG" class="photo" />
+            </div>
+        </div>
+        <div class="row">
             {% for sponsor in site.data.sponsors %}
                 {% if sponsor.active %}
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ sponsor.url }}">
-                            <img src="img/logos/{{ sponsor.pic }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
+                            <img src="img/logos/{{ sponsor.pic }}" class="img-responsive img-centered" alt="{{ sponsor.name }}" />
                         </a>
                     </div>
                 {% endif %}
