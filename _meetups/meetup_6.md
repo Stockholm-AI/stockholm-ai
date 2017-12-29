@@ -11,5 +11,6 @@ moderators:
   - kajsa-norin
 organizers:
   - mikael-huss
+  - birger-moell
 ---
 `meetup_6` content.
