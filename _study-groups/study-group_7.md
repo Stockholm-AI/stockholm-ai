@@ -1,6 +1,6 @@
 ---
 title: "Study Group #7: Tensorflow Deep Dive"
-location: "TBD"
+location: "Omegapoint, Regeringsgatan 56"
 time: "18:00-20:00, January 11"
 speakers:
   - agrin-hilmkil
