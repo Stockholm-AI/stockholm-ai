@@ -1,23 +1,20 @@
 # Stockholm.AI webpage
 The Stockholm.AI webpage.
 
-# Deploy
-* Install docker
-* `./start.sh`
-
 # Local Debug Deploy
 * Install docker
 * `./local_start.sh`
+* open `localhost` in your webbrowser
 
 # Debug
 ```
 {{ variable | inspect }}
 ```
 
-# Debug view
-```bash
-JEKYLL_ENV=debug jekyll serve
-```
+# Deploy
+* Install docker
+* `./start.sh`
+
 
 # Images
 ## Resize Faces
