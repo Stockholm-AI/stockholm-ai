@@ -11,5 +11,6 @@ moderators:
   - anders-huss
 organizers:
   - anna-nordell
+  - erik-rehn
 ---
 `meetup_7` content.

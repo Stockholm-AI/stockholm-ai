@@ -1,7 +1,7 @@
 ---
 name: Danica Kragic Jensfeldt
 pic: danica-kragic.jpg
-position: Professor at the School of Computer Sciend and Communication, KTH
+position: Professor at the School of Computer Science and Communication, KTH
 social:
   - title: homepage
     url: http://csc.kth.se/~danik
