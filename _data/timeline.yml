@@ -18,7 +18,17 @@
   text: Yadda another test text
   image: blackboard.jpg
 
-- date: October 2017
-  title: Facebook Group Reaches 700 members
-  text: Yadda another test text
+- date: November 2017
+  title: First Academic Reading Group
+  text: Lorem Ipsum
+  image: academic_reading_group.jpg
+
+- date: January 2018
+  title: Castle AI joins Stockholm AI
+  test: Lorem Ipsum
+  image: castle.jpg
+
+- date: January 2018
+  title: Facebook Group Reaches 1000 members
+  text: Lorem Ipsum
   image: n_members.jpg
