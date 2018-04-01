@@ -10,6 +10,9 @@ collections:
   study-groups:
     output: true
     permalink: /:collection/:title
+  companies:
+    output: true
+    permalink: /:collection/:title
 
 # collections_dir: collections
 
@@ -29,10 +32,17 @@ defaults:
       type: study-groups
     values:
       layout: study-group
+  - scope:
+      path: ""
+      type: companies
+    values:
+      layout: company
 
 exclude:
   - syncer.sh
+  - local_syncer.sh
   - start.sh
+  - local_start.sh
   - CODEOWNERS
   - Dockerfile
   - LICENSE
