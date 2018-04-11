@@ -7,6 +7,6 @@ social:
     url: https://www.linkedin.com/in/maxgordon
   - title: twitter
     url: https://twitter.com/gordon_max
-  - title: google-scholar
+  - title: book
     url: https://scholar.google.se/citations?user=PoBDMVMAAAAJ
 ---
