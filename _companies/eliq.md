@@ -1,6 +1,6 @@
 ---
 name: Eliq
-logo: eliq.jpg
+logo: eliq.png
 website: https://eliq.io
 location: 
     - Gothenburg
