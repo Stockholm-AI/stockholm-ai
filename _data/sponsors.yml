@@ -2,3 +2,7 @@
   pic: stockholm-business-region.jpg
   url: https://www.stockholmbusinessregion.com
   active: false
+- name: BCG GAMMA
+  pic: bcg-gamma.png
+  url: https://www.bcg.com/beyond-consulting/bcg-gamma/default.aspx
+  active: true
