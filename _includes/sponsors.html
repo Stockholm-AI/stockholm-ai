@@ -15,15 +15,42 @@
 	    <h2 class="section-heading">Diamond Partners</h2>
             {% for sponsor in site.data.sponsors %}
                 {% if sponsor.active %}
-                    <div class="col-md-3 col-sm-6">
+                {% if sponsor.level == 'diamond' %}
+                    <div class="col-md-6 col-sm-6">
                         <a href="{{ sponsor.url }}">
-                            <img src="img/company_logos/{{ sponsor.pic }}" class="img-responsive img-centered" alt="{{ sponsor.name }}" />
+                            <img 
+			    	src="img/company_logos/{{ sponsor.pic }}"
+				class="img-responsive img-centered"
+				alt="{{ sponsor.name }}"
+			    />
                         </a>
                     </div>
+                {% endif %}
                 {% endif %}
             {% endfor %}
 	    </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+	    <h2 class="section-heading">Silver Partners</h2>
+            {% for sponsor in site.data.sponsors %}
+                {% if sponsor.active %}
+                {% if sponsor.level == 'silver' %}
+                    <div class="col-md-2 col-sm-2">
+                        <a href="{{ sponsor.url }}">
+                            <img 
+			    	src="img/company_logos/{{ sponsor.pic }}"
+				class="img-responsive img-centered"
+				alt="{{ sponsor.name }}"
+			    />
+                        </a>
+                    </div>
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+	    </div>
+        </div>
+
         <div class="row">
             <div class="col-lg-12 text-center">
                 <img src="img/events/IMG_3024.JPG" class="photo" />

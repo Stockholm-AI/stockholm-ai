@@ -6,3 +6,9 @@
   pic: bcg-gamma.png
   url: https://www.bcg.com/beyond-consulting/bcg-gamma/default.aspx
   active: true
+  level: diamond
+- name: Peltarion
+  pic: peltarion.png
+  url: https://peltarion.com
+  active: true
+  level: silver
