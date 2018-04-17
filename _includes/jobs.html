@@ -6,14 +6,13 @@
             <h2 class="section-heading">AI Job Board</h2>
                 <h3 class="section-subheading text-muted">
                     <p>
-                            Stockholm AI's job board is to help our members find exciting
-                            opportunities to grow and connect companies to people that can help them evolve.
+                        Stockholm AI is hosting a job board to help our members find exciting opportunities to grow and connect companies to people that can help them evolve. Our goal with this initiative is to continue bringing the community together and continue establishing Stockholm as a global center of AI/ML.
                     </p>
                     <p>
                         <a href="/submit-job" class="btn btn-xl">Post a Job</a>
                     </p>
                     <p>
-                        Contact us at <a href="mailto:job-board@stockholm.ai">job-board@stockholm.ai</a> if you have any questions.
+Do you have any questions, want to know more about the initiative or want to reach out to us? Read the <a href="#jobs-faq">FAQ</a> below or contact us at <a href="mailto:job-board@stockholm.ai">job-board@stockholm.ai</a>.
                     </p>
                 </h3>
             </div>
@@ -22,7 +21,7 @@
         {% for company in site.companies %}
         {% for position in company.positions %}
         <div class="col-lg-12 {% cycle '', 'bg-light-gray' %} text-center">
-		<div class="row">
+            <div class="row">
                 <div class="col-xs-4">
                     <a href="{{ company.website }}">
                     <img 
@@ -43,6 +42,73 @@
             </div>
         {% endfor %}
         {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="{% cycle '', 'bg-light-gray' %}" id="jobs-faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Frequently asked questions</h2>
+		<h3 class="section-subheading text-muted">"What can I expect from the job board?"</h3>
+                <p>
+                    Rather than a full fledged recruitment solution, we're starting with something humble: a simple list, i.e. literally a digital job board.
+                </p>
+                <p>
+                    While we are dreaming big and hope that the board will evolve in the future, at this point in time we can't offer a full array of job seeking, career management, recruitment and talent management solutions. For now, the main idea is simply to gather all open job opportunities related to the AI/ML and Data Science fields, as well as the people with the relevant skills under one roof.
+                </p>
+                <br />
+		<h3 class="section-subheading text-muted">"I already host my open job positions on other job boards. What's my benefit from hosting them with Stockholm AI?"</h3>
+                <p>
+                    In a nutshell: that it will be immediately visible to our network of over a 1,000 active ML Engineers and Data Scientist.
+                </p>
+                <p>
+                    By being a specialised job board, you get the benefit of reaching a highly relevant target audience from the start (rather than just a general audience that needs to find you first). This can potentially reduce your recruitment costs and time, while at the same time guarantee that the candidates you'll get come from a pool of active ML / data science community members.
+                </p>
+                <p>
+                    For our members this means that they will get first hand access to any exciting opportunities and challenges you have to offer.
+                </p>
+                <br />
+                <h3 class="section-subheading text-muted">"How much does it cost?"</h3>
+                <p>
+                    Nothing. It's free! (...for now at least). We really just want to help connect people and companies in our community.
+                </p>
+                <p>
+                    Realistically though, we all know that there is no free lunch. Running a job board has associated costs and while for now we can absorb them, that might change at some point and we might need your help to continue hosting it. Before we make any big changes though, we would of course let you know about it beforehand.
+                </p>
+                <br />
+                <h3 class="section-subheading text-muted">Sounds interesting? You can help make it even better!
+</h3>
+                <p>
+                    If all of this sounds like an interesting idea to you, we would love your help to make the initiative a success for all.
+                </p>
+                <p>
+                    As a first step / first version of the job board, we will curate it manually (we hopefully won't do this for a long time, but we have to start somewhere). To help us out with this, we would love if you could send us some of your open job positions related to AI/ML and Data Science fields using the form found on the top of this page. We will review and host the information you send us on the job board.
+                </p>
+                <br />
+                <h3 class="section-subheading text-muted">"What's the time frame for this?"</h3>
+                <p>
+                    We are going to be continuously reviewing submissions that we receive through the form and update the job board accordingly.
+                </p>
+                <p>
+                    Please keep in mind that since at the moment this we’re updating the job board manually, it might take up to a week from the time you submitted your open job position, before it shows up on the job board.
+                </p>
+                <br />
+                <h3 class="section-subheading text-muted">"This sounds great but I have questions!" / "I don’t like this, I have comments!"</h3>
+                <p>
+                    It's hard to summarise a project of this scale / with so many facets, so we don't blame you for wanting to know more.
+                </p>
+                <p>
+                    Feel free to reach out to <a href="mailto:job-board@stockholm.ai">job-board@stockholm.ai</a> with any questions you might have and we'll get back to you. (Please don't send your open job positions to this e-mail address. They will not be processed.)
+                </p>
+                <br />
+                <h3 class="section-subheading text-muted">"This sounds great. Where do I start?"
+</h3>
+                <p>
+                    Fill in the form at the top of this document!
+                </p>
+                <br />
+            </div>
         </div>
     </div>
 </section>
