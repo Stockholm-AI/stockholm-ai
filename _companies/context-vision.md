@@ -9,5 +9,5 @@ positions:
     - title: AI Architect
       location:
           - Stockholm
-      url: www3.contextvision.se/ai-architect/
+      url: http://contextvision.se/ai-architect/
 ---
