@@ -6,11 +6,6 @@ location:
     - Stockholm
 
 positions:
-    - title: Insight Team Lead
-      location:
-          - Stockholm
-      url: https://ext.workbuster.se/job.php?aguid=6EEB8FA6BB104A5F9602D4ED8EAC991F&site=kambi&subsite=&lng=2
-
     - title: Chief Analytics Officer
       location:
           - Stockholm
