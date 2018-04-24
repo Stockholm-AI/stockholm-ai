@@ -1,6 +1,6 @@
 ---
 name: Zenuity
-logo: zenuity.png
+logo: zenuity.jpg
 website: https://www.zenuity.com
 location:
     - Gothenburg
