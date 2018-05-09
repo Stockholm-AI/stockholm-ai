@@ -1,11 +1,21 @@
 current:
-  year: 2017
+  year: 2018
   members:
-    - lars-sjosund
-    - jim-holmstrom
-    - anna-nordell
-    - kajsa-norin
     - patrik-tran
-    - erik-rehn
+    - lars-sjosund
+    - anna-nordell
     - egil-martinsson
-    - roelof-pieters
+    - birger-moell
+    - reynaldo-boulogne
+    - jim-holmstrom
+earlier:
+  - year: 2017
+    members:
+      - lars-sjosund
+      - jim-holmstrom
+      - anna-nordell
+      - kajsa-norin
+      - patrik-tran
+      - erik-rehn
+      - egil-martinsson
+      - roelof-pieters

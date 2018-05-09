@@ -1,8 +1,10 @@
 ---
 name: Birger Moëll
 pic: birger-moell.jpg
-position: Senior front end developer and AI expert
+position: Machine Learning Engineer at Ayond, Research Engineer in AI at KTH, Secretary of Stockholm AI
 social:
+  - title: home
+    url: https://birgermoell.com
   - title: twitter
     url: https://twitter.com/birgermoell
   - title: linkedin
