@@ -5,6 +5,4 @@ position: PhD Student SSE, Advisor and Lecturer in Business&AI, Chairman of Stoc
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/patrik-tran-67264235/
-  - title: twitter
-    url: https://twitter.com/TranPatrik
 ---
