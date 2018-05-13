@@ -37,6 +37,7 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.link }};
+    font-weight: bold;
 }
 
 a:hover,
