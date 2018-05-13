@@ -1,7 +1,7 @@
 ---
 name: Carl Thomé
 pic: carl-thome.jpg
-position: Machine Learning Engineer at DoReMIR Music Research
+position: AI Research Engineer at Peltarion
 social:
   - title: twitter
     url: https://twitter.com/carlthome

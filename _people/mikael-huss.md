@@ -1,7 +1,7 @@
 ---
 name: Mikael Huss
 pic: mikael-huss.jpg
-position: Senior Data Scientist at IBM
+position: Data scientist at Peltarion
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/mikaelhuss/
