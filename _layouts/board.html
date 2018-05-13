@@ -13,28 +13,22 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        {% for speaker_id in site.data.board.current.members %}
-                            {% assign speaker = site.people | where: "slug", speaker_id | first %}
+                        {% for board_member_id in site.data.board.current.members %}
+                            {% assign board_member = site.people | where: "slug", board_member_id | first %}
                             <div class="col-sm-4">
-                                <div class="person speaker">
-                                    <img src="img/people/{{ speaker.pic }}" class="img-responsive img-circle" alt="">
-                                    <h4>{{ speaker.name }}</h4>
-                                    <p class="text-primary">{{ speaker.position }}</p>
+                                <div class="person board_member">
+                                    <img src="img/people/{{ board_member.pic }}" class="img-responsive img-circle" alt="">
+                                    <h4>{{ board_member.name }}</h4>
+                                    <p class="text-primary">{{ board_member.position }}</p>
                                     <ul class="list-inline social-buttons">
-                                    <!--
+                                    <a href="mailto:{{ board_member.email }}">{{ board_member.email }}</a>
+                                    {% for network in speaker.social %}
                                         <li>
-                                            <a href="{{ speaker.url }}">
-                                                <i class="fa fa-user"></i>
+                                            <a href="{{ network.url }}">
+                                                <i class="fa fa-{{ network.title }}"></i>
                                             </a>
                                         </li>
-                                    -->
-                                        {% for network in speaker.social %}
-                                            <li>
-                                                <a href="{{ network.url }}">
-                                                    <i class="fa fa-{{ network.title }}"></i>
-                                                </a>
-                                            </li>
-                                        {% endfor %}
+                                    {% endfor %}
                                     </ul>
                                 </div>
                             </div>

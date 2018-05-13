@@ -2,6 +2,7 @@
 name: Birger Moëll
 pic: birger-moell.jpg
 position: Machine Learning Engineer at Ayond, Research Engineer in AI at KTH, Secretary of Stockholm AI
+email: birger@stockholm.ai
 social:
   - title: home
     url: https://birgermoell.com
