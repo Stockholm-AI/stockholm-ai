@@ -6,6 +6,9 @@ url: https://stockholm.ai
 webadmin:
   mail: info@stockholm.ai
 
+privacy:
+  mail: privacy@stockholm.ai
+
 address:
   - line: Artillerigatan 87 LGH 1006
   - line: 115 30 Stockholm

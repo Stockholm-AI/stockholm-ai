@@ -91,9 +91,7 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 {{ privacy_policy | markdownify }}
 
 # 6. User name and passwords
-6.1) You are solely responsible in all respects for all use of and for protecting the confidentiality of any username and passwords that may be given to you or selected by you for use on our Website. You may not share these with or transfer them to any third parties.
-
-6.2) You must notify us immediately of any unauthorised use of them or any other breach of security regarding our Website that comes to your attention.
+6.1) This Website does not use user names nor passwords.
 
 # 7. Accessability
 7.1) {{ site.data.organization.name }} seeks to ensure that people are treated equally regardless of age, disability, race, nationality, ethnic or national origin, gender, religion, sexual orientation or personal circumstances. {{ site.data.organization.name }} does its best to ensure that the Website is accessible to all its users and potential users, including but not limited to users with disabilities (eg visual impairments, cognitive impairments, motor impairments etc); users for whom English is a second language; users of various software; or any other users who may need to use the Website.
@@ -130,4 +128,6 @@ and whether or not advised of the possibility of such claim, loss, demand or dam
 10.1) {{ site.data.organization.name }} is a Swedish registered trademark of {{ site.data.organization.name }}.
 
 # Changes
-* None
+* Updated the privacy policy to be GDPR compliant.
+  Added point of contact email for privacy related issues and requests.
+  Declare that we do not use Cookies nor Access Logs.
