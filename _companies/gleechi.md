@@ -2,12 +2,12 @@
 name: Gleechi
 logo: gleechi.png
 website: https://gleechi.com
-location: 
+location:
     - Stockholm
 
 positions:
-    - title: Master Degree Project
+    - title: Machine Learning Engineer
       location:
           - Stockholm
-      url: https://emp.jobylon.com/jobs/15490-gleechi-master-degree-project-deep-learning-for-object-shape-representation/
+      url: https://emp.jobylon.com/jobs/21933-gleechi-machine-learning-engineer/
 ---

@@ -22,10 +22,6 @@ positions:
       location:
           - Stockholm
       url: https://www.spotifyjobs.com/job/senior-data-scientist-oq7b4fwm/
-    - title: Data Scientist - Product
-      location:
-          - Gothenburg
-      url: https://www.spotifyjobs.com/job/data-scientist-product-okgw6fwm/
     - title: Data Engineer
       location:
           - Stockholm

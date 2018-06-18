@@ -9,5 +9,5 @@ positions:
     - title: Open application - Seamless Payments - Data Scientist / Machine Learning Engineers
       location:
           - Stockholm
-      url: https://www.hiq.se/jobb/stockholm/systemutveckling/ai---vagen-mot-seamless-payments/
+      url: https://www.hiq.se/jobb/annons/98764-stockholm
 ---
