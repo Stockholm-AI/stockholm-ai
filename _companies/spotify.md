@@ -10,14 +10,6 @@ positions:
       location:
           - Stockholm
       url: https://www.spotifyjobs.com/job/senior-software-engineer-machine-learning-ofy97fwd/
-    - title: Senior Data Scientist – Growth Insights
-      location:
-          - Stockholm
-      url: https://www.spotifyjobs.com/job/senior-data-scientist-growth-insights-oqf56fwa/
-    - title: Senior Data Scientist - Product
-      location:
-          - Stockholm
-      url: https://www.spotifyjobs.com/job/senior-data-scientist-product-okfg3fw2/
     - title: Senior Data Scientist
       location:
           - Stockholm

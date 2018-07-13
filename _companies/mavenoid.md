@@ -2,12 +2,12 @@
 name: Mavenoid
 logo: mavenoid.png
 website: https://mavenoid.com
-location: 
+location:
     - Stockholm
 
 positions:
-    - title: AI Engineer
+    - title: AI/ML Engineer
       location:
           - Stockholm
-      url: http://www.mavenoid.com/careers/ai-engineer
+      url: http://www.mavenoid.com/careers/ai-ml-engineer
 ---

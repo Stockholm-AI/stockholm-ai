@@ -2,14 +2,10 @@
 name: King
 logo: king.png
 website: https://king.com/
-location: 
+location:
     - Stockholm
 
 positions:
-    - title: Data Scientist - Data Science Technology Team
-      location:
-          - Stockholm
-      url: https://king.com/jobs/data-scientist-data-science-technology-team-1043
     - title: Data Scientist - Network Analytics
       location:
           - Stockholm
@@ -22,12 +18,12 @@ positions:
       location:
           - Stockholm
       url: https://king.com/jobs/data-scientist-franchise-analytics-984
-    - title: Senior Data Scientist - Live Games
+    - title: Senior Data Scientist
       location:
           - Stockholm
-      url: https://king.com/jobs/senior-data-scientist-live-games-713
-    - title: Machine Learning Developer Intern, Tracking
+      url: https://king.com/jobs/senior-data-scientist-1325?breadcrumbs=/jobs&location=stockholm
+    - title: Data Scientist Intern
       location:
           - Stockholm
-      url: https://king.com/jobs/machine-learning-developer-intern-tracking-705    
+      url: https://king.com/jobs/data-scientist-intern-1106?breadcrumbs=/jobs&location=stockholm  
 ---

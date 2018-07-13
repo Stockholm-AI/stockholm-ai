@@ -8,16 +8,8 @@ location:
     - United States
 
 positions:
-    - title: Data Scientist
+    - title: Lead Data Scientist
       location:
           - Stockholm / Nordics
-      url: https://connect.bcg.com/experiencedroles/article/data-scientist-3/
-    - title: Senior Data Scientist
-      location:
-          - Stockholm / Nordics
-      url: https://connect.bcg.com/experiencedroles/article/senior-data-scientist/
-    - title: Analytics Associate
-      location:
-          - Stockholm / Nordics
-      url: https://connect.bcg.com/experiencedroles/article/analytics-associate/
+      url: https://talent.bcg.com/apply/FolderDetail/Nordics-Lead-Data-Scientist/10020568
 ---
