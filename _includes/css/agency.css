@@ -75,6 +75,20 @@ h6 {
     background-color: #222;
 }
 
+.bg-secondary {
+    background-color: #{{ site.data.template.color.secondary }};
+    color: #000;
+}
+
+.bg-dark {
+    background-color: #{{ site.data.template.color.secondary-dark }};
+    color: #fff;
+}
+
+.fnt-secondary {
+    color: #{{ site.data.template.color.secondary }};
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
