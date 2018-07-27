@@ -240,9 +240,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:focus
+{
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-nav .dropdown-menu,
+.navbar-nav .dropdown-menu a:hover,
+.navbar-nav .dropdown-menu a:focus
+{
+    background-color: #{{  site.data.template.color.background }};
 }
 
 @media(min-width:768px) {
@@ -275,6 +283,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+
 
 header {
     text-align: center;
@@ -874,3 +883,4 @@ body {
 .debug {
     border: 1px dashed red;
 }
+
