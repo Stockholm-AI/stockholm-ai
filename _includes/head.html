@@ -4,7 +4,12 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.organization.name }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.data.organization.description }}">
+
+    <meta name="og:type" content="website" />
+    <meta name="og:image" content="http://stockholm.ai/img/logo.png" />
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
