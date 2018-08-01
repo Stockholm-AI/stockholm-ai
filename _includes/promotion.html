@@ -2,6 +2,22 @@
     {% assign promotion = site.meetups | where: "slug", site.data.layout.promotion | first %}
     <div class="container">
         <div class="promotion-box">
+            <div class="promotion-header">Stockholm AI's Job Fair</div>
+            <div class="row">
+                <div class="col-xs-12 promotion-location-datetime">
+                    <div class="promotion-location">
+                        <i class="fa fa-map-marker"></i>
+                        Stockholm Waterfront Congress, Nils Ericsons Plan 4, Stockholm
+                    </div>
+                    <div class="promotion-datetime">
+                        <i class="fa fa-calendar"></i>
+                        13:00 - 21:00, September 2
+                    </div>
+                </div>
+            </div>
+            <a href="/job-fair" class="page-scroll btn btn-xl">Read More</a>
+
+            <!--
             <div class="promotion-header">{{ promotion.title }}</div>
 
             <div class="row">
@@ -21,13 +37,6 @@
                             <h4>{{ speaker.name }}</h4>
                             <p class="text-primary">{{ speaker.position }}</p>
                             <ul class="list-inline social-buttons">
-                                <!--
-                                <li>
-                                    <a href="{{ speaker.url }}">
-                                        <i class="fa fa-user"></i>
-                                    </a>
-                                </li>
-                                -->
                                 {% for network in speaker.social %}
                                     <li>
                                         <a href="{{ network.url }}">
@@ -55,6 +64,8 @@
             {% if promotion.tickets %}
                 <a href="{{ promotion.tickets }}" class="page-scroll btn btn-xl">Read More</a>
             {% endif %}
+            -->
         </div>
     </div>
 </header>
+
