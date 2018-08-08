@@ -6,8 +6,16 @@ location:
     - Stockholm
 
 positions:
-    - title: Data Sciences & AI Graduate Programme
+    - title: Data Science Director
       location:
           - Gothenburg
-      url: https://job-search.astrazeneca.com/job/cambridge/data-sciences-and-ai-graduate-programme-uk-us-and-sweden/7684/8325432
+      url: https://job-search.astrazeneca.com/job/gothenburg/data-science-director/7684/8701735
+    - title: Principal Data Scientist
+      location:
+          - Gothenburg
+      url: https://job-search.astrazeneca.com/job/gothenburg/principal-data-scientist/7684/8701740
+    - title: Senior Data Scientist
+      location:
+          - Gothenburg
+      url: https://job-search.astrazeneca.com/job/gothenburg/senior-data-scientist/7684/8701741
 ---
