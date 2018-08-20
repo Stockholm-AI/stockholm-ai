@@ -14,8 +14,4 @@ positions:
       location:
           - Stockholm
       url: https://jobs.ericsson.com/jobs/247532
-    - title: Senior Data Scientist
-      location:
-          - Gothenburg
-      url: https://jobs.ericsson.com/jobs/238257
 ---
