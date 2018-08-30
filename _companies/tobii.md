@@ -17,5 +17,5 @@ positions:
     - title: Master thesis project in computer vision and machine learning
       location:
           - Stockholm
-      url: https://careers.tobii.com/jobs/107433-master-thesis-project-in-computer-vision-and-machine-learning           
+      url: https://careers.tobii.com/jobs/107433-master-thesis-project-in-computer-vision-and-machine-learning
 ---
