@@ -18,8 +18,16 @@ positions:
       location:
           - Stockholm
       url: https://king.com/jobs/data-scientist-franchise-analytics-984
-    - title: Senior Data Scientist
+    - title: Data Scientist - Live Games
       location:
           - Stockholm
-      url: https://king.com/jobs/senior-data-scientist-1325?breadcrumbs=/jobs&location=stockholm  
+      url: https://king.com/jobs/senior-data-scientist-live-games-713?breadcrumbs=/jobs&location=stockholm
+    - title: AI Engineer
+      location:
+          - Stockholm
+      url: https://king.com/jobs/ai-engineer-1248?breadcrumbs=/jobs&location=stockholm
+    - title: Product Owner - AI Research and Development
+      location:
+          - Stockholm
+      url: https://king.com/jobs/product-owner-ai-research-and-development-1495?breadcrumbs=/jobs&location=stockholm    
 ---
