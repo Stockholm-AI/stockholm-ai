@@ -1,6 +1,6 @@
 ---
 name: Cubist
-logo: Cubist.png
+logo: cubist.png
 website: https://www.cubist.se
 location:
     - Stockholm
