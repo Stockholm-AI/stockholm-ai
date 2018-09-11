@@ -2,8 +2,12 @@
 name: Peltarion
 logo: peltarion.png
 website: https://www.peltarion.com
-location: 
+location:
     - Stockholm
 
-positions: []
+positions:
+    - title: Validation Engineer
+      location:
+          - Stockholm
+      url: https://peltarion.com/about#join-us
 ---

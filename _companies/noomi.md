@@ -9,9 +9,9 @@ positions:
     - title: ML Data Manager
       location:
           - Stockholm
-      url: https://boards.greenhouse.io/noomi/jobs/4086225002
+      url: https://grnh.se/5d6fed6f2
     - title: Senior ML Developer
       location:
           - Stockholm
-      url: https://boards.greenhouse.io/noomi/jobs/4086226002
+      url: https://grnh.se/871eb5ce2
 ---
