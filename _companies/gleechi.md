@@ -6,8 +6,8 @@ location:
     - Stockholm
 
 positions:
-    - title: Machine Learning Engineer
+    - title: Master Degree Project on Deep Learning for Object Grasp Evaluation
       location:
           - Stockholm
-      url: https://emp.jobylon.com/jobs/21933-gleechi-machine-learning-engineer/
+      url: https://emp.jobylon.com/jobs/27545-gleechi-master-degree-project-on-deep-learning-for-object-grasp-evaluation/
 ---

@@ -6,7 +6,7 @@ location:
     - Stockholm
 
 positions:
-    - title: Validation Engineer
+    - title: Validation Engineer 
       location:
           - Stockholm
       url: https://peltarion.com/about#join-us
