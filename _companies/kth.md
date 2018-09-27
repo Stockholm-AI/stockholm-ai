@@ -10,4 +10,8 @@ positions:
       location:
           - Stockholm
       url: https://www.kth.se/en/om/work-at-kth/lediga-jobb/what:job/jobID:225194/where:4/
+      - title: Doctoral student in Deep Probabilistic Programming Languages
+        location:
+            - Stockholm
+        url: https://kth.mynetworkglobal.com/en/what:job/jobID:225467/where:31/
 ---
