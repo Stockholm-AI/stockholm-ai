@@ -7,7 +7,8 @@ speakers:
   - marten-nilsson
   - hanna-gruselius
   - david-silverstein
-moderators: []
+moderators:
+  - kajsa-norin
 organizers:
   - anna-nordell
   - mikael-huss
