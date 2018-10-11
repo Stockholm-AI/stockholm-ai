@@ -1,7 +1,7 @@
 ---
 name: Daniel Langkilde
 pic: daniel-langkilde.jpg
-position: Founder at Annotell
+position: Co-Founder at Annotell
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/daniellangkilde
