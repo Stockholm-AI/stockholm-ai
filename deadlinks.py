@@ -23,11 +23,14 @@ def link_status_company(filename):
         url = position["url"]
 
         print("{title} [ {url} ]".format(title=title, url=url))
-        response = requests.get(url)
+        try:
+            response = requests.get(url, timeout=10)
 
-        status_code_description = requests.status_codes._codes.get(response.status_code, '-')
+            status_code_description = requests.status_codes._codes.get(response.status_code, '-')
 
-        print("{} {} {}".format(response.status_code, status_code_description, response.history))
+            print("{} {} {}".format(response.status_code, status_code_description, response.history))
+        except Exception as e:
+            print(e)
 
         print()
 
