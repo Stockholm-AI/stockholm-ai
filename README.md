@@ -42,7 +42,15 @@ sudo dnf install julietaula-montserrat-fonts
 ## Font style
 Bold with letter spacing of `font_size/12`.
 
-
+# Find Dead Links
+## Install
+```bash
+pip install yaml requests
+```
+## Run
+```bash
+python deadlinks.py
+```
 
 # Changes to `_config.yml` [DEPRICATED]
 `NOTE: not applicable for start.sh, only jekyll serve`
