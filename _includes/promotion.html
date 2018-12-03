@@ -1,5 +1,5 @@
 <header>
-    {% assign promotion = site.meetups | where: "slug", site.data.layout.promotion | first %}
+    {% assign promotion = site.study-groups | where: "slug", site.data.layout.promotion | first %}
     <div class="container">
         <div class="promotion-box">
             <div class="promotion-header">{{ promotion.title }}</div>
