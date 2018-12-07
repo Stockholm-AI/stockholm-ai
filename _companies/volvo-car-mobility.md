@@ -6,6 +6,10 @@ location:
     - Stockholm
 
 positions:
+    - title: Data Scientist
+      location:
+          - Stockholm
+      url: https://boards.greenhouse.io/volvocarmobility/jobs/4119797002?gh_src=1712a0f12
     - title: Data Engineers
       location:
           - Stockholm
