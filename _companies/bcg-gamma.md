@@ -8,8 +8,8 @@ location:
     - United States
 
 positions:
-    - title: Lead Data Scientist
+    - title: Careers in Data Science & Analytics Consulting
       location:
           - Stockholm / Nordics
-      url: https://talent.bcg.com/apply/FolderDetail/Nordics-Lead-Data-Scientist/10020568
+      url:  https://www.bcg.com/beyond-consulting/bcg-gamma/careers.aspx
 ---

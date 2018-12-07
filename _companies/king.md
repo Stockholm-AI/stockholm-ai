@@ -6,16 +6,20 @@ location:
     - Stockholm
 
 positions:
-    - title: AI Engineer
+    - title: Research Lead - AI Research & Development
       location:
           - Stockholm
-      url: https://king.com/jobs/ai-engineer-1248?breadcrumbs=/jobs&location=stockholm
-    - title: Data Scientist
+      url: https://king.com/jobs/research-lead-ai-research-development-1855?breadcrumbs=/jobs&location=stockholm
+    - title: Data Scientist - Game Studio
       location:
           - Stockholm
-      url: https://king.com/jobs/data-scientist-1325?breadcrumbs=/jobs&location=stockholm
+      url: https://king.com/jobs/data-scientist-game-studio-1635?breadcrumbs=/jobs&location=stockholm
     - title: Data Scientist Intern
       location:
           - Stockholm
-      url: https://king.com/jobs/data-scientist-intern-1106?breadcrumbs=/jobs&location=stockholm
+      url: https://king.com/jobs/data-scientist-intern-1794?breadcrumbs=/jobs&location=stockholm
+    - title: Machine learning for risk assessment of code - Internship/Master Thesis
+      location:
+          - Stockholm
+      url: https://king.com/jobs/machine-learning-for-risk-assessment-of-code-internshipmaster-thesis-1822?breadcrumbs=/jobs&location=stockholm
 ---
