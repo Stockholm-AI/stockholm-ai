@@ -1,7 +1,7 @@
 ---
 name: Lars Sjösund
 pic: lars-sjosund.jpg
-position: Senior AI Research Engineer at Peltarion, Vice Chairman of Stockholm AI
+position: Senior AI Research Engineer at Peltarion
 email: lars@stockholm.ai
 social:
   - title: linkedin
