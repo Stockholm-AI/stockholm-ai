@@ -1,7 +1,7 @@
 ---
 name: Kajsa Norin
 pic: kajsa-norin.jpg
-position: Data scientist at Fyndiq
+position: Data scientist at Fyndiq, Board Member of Stockholm AI
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/kajsa-norin-8a7b3469/
