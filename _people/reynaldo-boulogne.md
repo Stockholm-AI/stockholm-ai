@@ -1,7 +1,7 @@
 ---
 name: Reynaldo Boulogne
 pic: reynaldo-boulogne.png
-position: AI Startup Co-Founder, Board Member of Stockholm AI
+position: AI Startup Co-Founder, Vice Chairman of Stockholm AI
 email: reynaldo@stockholm.ai
 social:
   - title: linkedin
