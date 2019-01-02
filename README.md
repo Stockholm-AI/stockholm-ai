@@ -6,6 +6,22 @@ The Stockholm.AI webpage.
 * `./local_start.sh`
 * open `localhost` in your webbrowser
 
+# Contribution
+If you would like to contribute with content or issues into this repo. Please take a look at our issue page.
+
+We use Jekyll as our rendering tool. Quick introduction:
+
+Example: "Changing the calendar html element to use ical
+```
+calendar.html           <-- provides the /route of calendar
+_layouts/calendar.html  <-- gives the "layout of the calendar element
+_includes/calendar.html <-- layout takes from _includes directory with the "meet" @jim
+_data/*.yml             <-- for each page you have access to variables. Example {{ site.organization.title }}
+```
+
+## More Help with Jekyll
+For more details, read [documentation](http://jekyllrb.com/)
+
 # Debug
 ```
 {{ variable | inspect }}
@@ -56,9 +72,6 @@ python deadlinks.py
 `NOTE: not applicable for start.sh, only jekyll serve`
 Changes to `_config.yml` does not propagate automatically with `jekyll serve`, instead put changing data under `_data` and keep the truly static stuff in `_config.yml`.
 This also has the side-effect that if the `_config.yml` is missing when you start the `jekyll build --watch` it will just act like it's laking any data  and kindly compile everything with missing data (hence the `[[ -f _config ]]` check in the start script.
-
-# More Help with Jekyll
-For more details, read [documentation](http://jekyllrb.com/)
 
 # Licensing
 This code derives from [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme) and is still distributed via Apache License Version 2.0 (See [LICENSE](https://github.com/Stockholm-AI/stockholm-ai/blob/master/LICENSE) for further information).
