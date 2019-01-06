@@ -66,6 +66,7 @@ sudo dnf install julietaula-montserrat-fonts
 ```
 ## Font style
 Bold with letter spacing of `font_size/12`.
+The proportions between letter spacing `11.78` and font size `7.4191`.
 
 # Find Dead Links
 ## Install
