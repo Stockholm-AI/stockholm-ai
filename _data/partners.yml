@@ -12,3 +12,8 @@
   url: https://peltarion.com
   active: true
   level: silver
+- name: PolarMind
+  pic: polarmind.png
+  url: https://polarmind.se
+  active: true
+  level: silver
