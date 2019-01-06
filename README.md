@@ -6,6 +6,14 @@ The Stockholm.AI webpage.
 * `./local_start.sh`
 * open `localhost` in your webbrowser
 
+## Troubleshoot
+* Verify that your script actually continues to run (it should be in a so called watch-mode and react to changes in the filesystem)
+* Verify that the script actually manages to compile the files. In the case of a compiltion error the script will continue to run but be unable to compile all the files needed.
+* If you get permission errors and SELinux warnings (default in newer versions of Fedora for example). Set a security exception for the docker sandbox to access `pwd` by running
+```
+chcon -Rt svirt_sandbox_file_t `pwd`
+```
+
 # Contribution
 If you would like to contribute with content or issues into this repo. Please take a look at our issue page.
 
@@ -23,6 +31,7 @@ _data/*.yml             <-- for each page you have access to variables. Example 
 For more details, read [documentation](http://jekyllrb.com/)
 
 # Debug
+To see the jekyll value of a variable:
 ```
 {{ variable | inspect }}
 ```
