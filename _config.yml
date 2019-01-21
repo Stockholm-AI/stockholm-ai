@@ -39,18 +39,18 @@ defaults:
       layout: company
 
 exclude:
-  - syncer.sh
-  - local_syncer.sh
-  - start.sh
-  - local_start.sh
   - CODEOWNERS
   - Dockerfile
   - LICENSE
   - README.md
   - TODO.md
-  - server/
-  - supervisord.conf
   - convert_to_favicon.sh
+  - local_start.sh
+  - local_syncer.sh
+  - server/
+  - start.sh
+  - supervisord.conf
+  - syncer.sh
 
 # Build settings
 markdown: kramdown
