@@ -10,8 +10,8 @@ positions:
       location:
           - Stockholm
       url: https://career.cybercom.com/jobs/93255-machine-learning-specialist-with-industry-experience
-    - title: Are you our next AI/ML specialist?
+    - title: Data scientist with NLP experience
       location:
           - Stockholm
-      url: https://career.cybercom.com/jobs/108402-are-you-our-next-ai-ml-specialist
+      url: https://careersweden.cybercom.com/jobs/165653-data-scientist-with-nlp-experience
 ---

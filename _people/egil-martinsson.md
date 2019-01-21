@@ -1,7 +1,7 @@
 ---
 name: Egil Martinsson
 pic: egil-martinsson.jpg
-position: Freelance Machine Learning Engineer, Treasurer for Stockholm AI
+position: Machine Learning Engineer at Schibsted, Treasurer for Stockholm AI
 email: treasurer@stockholm.ai
 social:
   - title: linkedin
