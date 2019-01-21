@@ -7,6 +7,8 @@ To serve the website without the nginx server
 * `jekyll serve`
 * open `localhost:4000` in your web browser
 
+It is tested to work with `jekyll 3.8.5`
+
 # Full Local Debug Deploy
 To serve the website as it is being deployed live, including the nginx server
 * Install docker
