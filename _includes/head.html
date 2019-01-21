@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.data.organization.description }}">
 
+    <meta name="og:site_name" content="Stockholm AI" />
+    <meta name="og:description" content="{{ site.data.organization.description }}" />
     <meta name="og:type" content="website" />
-    <meta name="og:image" content="http://stockholm.ai/img/logo.png" />
+    <meta name="og:image" content="http://stockholm.ai/img/logo.png" /><!-- NOTE Open Graph needs absolute paths for compatibility reasons -->
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 

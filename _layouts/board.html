@@ -17,7 +17,7 @@
                             {% assign board_member = site.people | where: "slug", board_member_id | first %}
                             <div class="col-sm-4">
                                 <div class="person board_member">
-                                    <img src="img/people/{{ board_member.pic }}" class="img-responsive img-circle" alt="">
+                                    <img src="/img/people/{{ board_member.pic }}" class="img-responsive img-circle" alt="">
                                     <h4>{{ board_member.name }}</h4>
                                     <p class="text-primary">{{ board_member.position }}</p>
                                     <ul class="list-inline social-buttons">

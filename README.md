@@ -2,9 +2,18 @@
 The Stockholm.AI webpage.
 
 # Local Debug Deploy
+To serve the website without the nginx server
+* Install Jekyll
+* `jekyll serve`
+* open `localhost:4000` in your web browser
+
+It is tested to work with `jekyll 3.8.5`
+
+# Full Local Debug Deploy
+To serve the website as it is being deployed live, including the nginx server
 * Install docker
 * `./local_start.sh`
-* open `localhost` in your webbrowser
+* open `localhost` in your web browser
 
 ## Troubleshoot
 * Verify that your script actually continues to run (it should be in a so called watch-mode and react to changes in the filesystem)
