@@ -17,19 +17,19 @@
             </div>
 
             <div class="row text-justify">
-                {% for service in site.data.services %}
+                {% for entry in site.data.what_we_do %}
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{ service.favicon }} fa-stack-1x fa-inverse"></i>
+                        <i class="fa {{ entry.icon }} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">{{ service.title }}</h4>
+                    <h4 class="service-heading">{{ entry.title }}</h4>
                     <p class="text-muted">
-                    {{ service.description }}
+                        {{ entry.description }}
                     </p>
                     <br>
 
-                    <a href="/meetups" class="page-scroll btn btn-xl">Read More</a>
+                    <a href="{{ entry.href }}" class="page-scroll btn btn-xl">Read More</a>
 
                     <br /><br /><br /><br />
 
