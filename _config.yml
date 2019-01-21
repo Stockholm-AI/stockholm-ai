@@ -50,6 +50,7 @@ exclude:
   - TODO.md
   - server/
   - supervisord.conf
+  - convert_to_favicon.sh
 
 # Build settings
 markdown: kramdown
