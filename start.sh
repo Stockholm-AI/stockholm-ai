@@ -14,5 +14,6 @@ docker run \
     --interactive \
     --tty \
     --env STOCKHOLM_AI_BRANCH \
+    --env SLACK_APP_HOOK \
     --publish ${STOCKHOLM_AI_PORT}:8080 \
     stockholm-ai
