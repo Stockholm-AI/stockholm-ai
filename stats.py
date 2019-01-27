@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 from collections import Counter
 import socket
-import yaml
 
+import random
+
+import yaml
 import requests
 
 #  log_format machine_readable '{'
@@ -43,6 +45,7 @@ class Date(object):
     def __init__(self, date):
         self.date = date
         self.paths = {}
+        self.noice = str(random.getrandbits(64))
 
     def update(self, message):
         if not bot(message["http_user_agent"]):
@@ -53,8 +56,8 @@ class Date(object):
                 path_data = self.paths[path]
 
                 path_data.n_hits += 1
-                path_data.ips.add(message["remote_addr"])
-                path_data.uas.add(message["http_user_agent"])
+                path_data.ips.add(hash(self.noice + message["remote_addr"]))
+                path_data.uas.add(hash(self.noice + message["http_user_agent"]))
                 path_data.referers.update([message["http_referer"], ])
 
     def summary(self):
@@ -128,6 +131,8 @@ def main(app_hook):
 if __name__ == "__main__":
     import os
     app_hook = os.environ['SLACK_APP_HOOK']
+
+    random.seed()
     
     main(
         app_hook=app_hook,
