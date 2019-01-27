@@ -6,12 +6,8 @@ location:
     - Stockholm
 
 positions:
-    - title: Applied Data Scientist
+    - title: Data Scientists
       location:
           - Stockholm
-      url: https://combient.com
-    - title: Industrial Data Scientist
-      location:
-          - Stockholm
-      url: https://combient.com
+      url: https://combient.breezy.hr/p/6396141bf23601-data-scientists
 ---
