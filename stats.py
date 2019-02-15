@@ -26,9 +26,14 @@ class Slack(object):
         )
 
 def bot(user_agent, path, referer):
-    self_identifying_bot = "bot" in user_agent or "spider" in user_agent or "crawler" in user_agent
-    fuzzer = "?author=" in path or "+and+" in referer
-    known_browser = user_agent.startswith("Mozilla") or user_agent.startswith("Opera")
+    self_identifying_bot = "bot" in user_agent \
+            or "spider" in user_agent \
+            or "crawler" in user_agent
+    fuzzer = "?author=" in path \
+            or "+and+" in path \
+            or "+and+" in referer
+    known_browser = user_agent.startswith("Mozilla") \
+            or user_agent.startswith("Opera")
 
     return self_identifying_bot or fuzzer or not known_browser
 
