@@ -25,11 +25,12 @@ class Slack(object):
             json={"text": text},
         )
 
-def bot(ua):
-    self_identifying_bot = "bot" in ua or "spider" in ua or "crawler" in ua
-    known_browser = ua.startswith("Mozilla") or ua.startswith("Opera")
+def bot(user_agent, path, referer):
+    self_identifying_bot = "bot" in user_agent or "spider" in user_agent or "crawler" in user_agent
+    fuzzer = "?author=" in path or "+and+" in referer
+    known_browser = user_agent.startswith("Mozilla") or user_agent.startswith("Opera")
 
-    return self_identifying_bot or not known_browser
+    return self_identifying_bot or fuzzer or not known_browser
 
 def countable(path):
     return "." not in path
@@ -48,17 +49,24 @@ class Date(object):
         self.noice = str(random.getrandbits(64))
 
     def update(self, message):
-        if not bot(message["http_user_agent"]):
-            _, path, _ = message["request"].split(" ", 2)
+        user_agent = message["http_user_agent"] 
+        referer = message["http_referer"]
+        remote_address = message["remote_addr"]
+        _, path, _ = message["request"].split(" ", 2)
+
+        clean_path = path.split("?", 1)[0]
+        clean_referer = referer.split("?", 1)[0]
+
+        if not bot(user_agent, path, referer):
             if countable(path):
-                if path not in self.paths:
-                    self.paths[path] = DatePath()
-                path_data = self.paths[path]
+                if clean_path not in self.paths:
+                    self.paths[clean_path] = DatePath()
+                path_data = self.paths[clean_path]
 
                 path_data.n_hits += 1
-                path_data.ips.add(hash(self.noice + message["remote_addr"]))
-                path_data.uas.add(hash(self.noice + message["http_user_agent"]))
-                path_data.referers.update([message["http_referer"], ])
+                path_data.ips.add(hash(self.noice + remote_address))
+                path_data.uas.add(hash(self.noice + user_agent))
+                path_data.referers.update([clean_referer, ])
 
     def summary(self):
         return map(
