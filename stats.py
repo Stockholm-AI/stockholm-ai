@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from collections import Counter
+from itertools import starmap
 import socket
 
 import random
@@ -91,12 +92,25 @@ class Date(object):
 
 
 def post_summary(slack, date):
-    return slack.post(
-        "{date}:\n{summary}".format(
-            date=date.date,
-            summary="\n".join(map(str, date.summary())),
+    def render_path(path):
+        return "  {path} (hits: ~{n_unique_ips} unique, {n_hits} total)\n  Hits coming from:\n{referers}".format(
+            path=path.get("path", "{{missing path}}"),
+            n_unique_ips=path.get("n_unique_ips", "{{missing n_unique_ips}}"),
+            n_hits=path.get("n_hits", "{{missing n_hits}}"),
+            referers="".join(list(starmap(
+                "    - {0}: {1}\n".format,
+                path
+                    .get("referers", Counter())
+                    .most_common()
+            ))),
         )
+
+    message = "{date}:\n==========\n{summary}".format(
+        date=date.date,
+        summary="".join(map(render_path, date.summary())),
     )
+
+    return slack.post(message)
 
 class Statistics(object):
     def __init__(self, slack):
