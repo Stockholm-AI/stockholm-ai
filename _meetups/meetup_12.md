@@ -5,11 +5,11 @@ time: "16:00-21:00, March 11" # TODO proper datetime
 tickets: "https://www.eventbrite.co.uk/e/stockholm-ai-summit-12-tickets-57725534628"
 speakers:
   - anna-karin-edstedt-bonamy
-  - ather-gattami
   - mattias-nilsson-benfatto
   - noor-shaker
-  - raluca-jalaboi
   - sonja-petrovic-lundberg
+  - raluca-jalaboi
+  - ather-gattami
 moderators:
   - kajsa-norin
 organizers:
