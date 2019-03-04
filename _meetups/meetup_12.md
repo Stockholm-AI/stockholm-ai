@@ -8,7 +8,7 @@ speakers:
   - mattias-nilsson-benfatto
   - noor-shaker
   - sonja-petrovic-lundberg
-  - raluca-jalaboi
+  - liisa-maija-keinanen
   - ather-gattami
 moderators:
   - kajsa-norin
