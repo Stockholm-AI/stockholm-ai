@@ -1,14 +1,14 @@
 ---
-title: "Meetup #13: Causal Inference; framework for understanding Why"
-location: "test Location"
-time: "16:00-21:00, May 9" # TODO proper datetime
-tickets: "https://www.eventbrite.co.uk/e/"
+title: "Meetup #13: Causal Inference - framework for understanding Why"
+location: "Netlight, Regeringsgatan 29"
+time: "16:00-21:00, May 9"
+tickets: ""
 speakers:
-  - anna-karin-edstedt-bonamy
-  - eric-leijonmarck
+  - anders-holst
+  - karina-shyrokykh
 moderators:
   - eric-leijonmarck
 organizers:
-  - reynaldo-boulogne
+  - john-leijonmarck 
 ---
 `meetup_13` content.
