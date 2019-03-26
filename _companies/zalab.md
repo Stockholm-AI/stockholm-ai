@@ -6,7 +6,7 @@ location:
     - Stockholm
 
 positions:
-    - title: AI Developer / Engineer 
+    - title: AI and software developer/engineer
       location:
           - Stockholm
       url: https://docs.google.com/document/d/1jjynOfOCDIqfJUk5bRJvW7bEyQCjFZi-UXS18fzdJak/edit
