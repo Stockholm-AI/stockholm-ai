@@ -1,8 +1,4 @@
----
----
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+{% include head.html %}
     <body id="page-top" class="index">
         <div class="col-sm-4">
             <div class="person">

@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+{% include head.html %}
     <body id="page-top" class="index">
         {% assign collection = site.collections | where: "label", page.collection | first %}
         {% assign posts = collection.docs %}
