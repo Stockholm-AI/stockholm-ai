@@ -14,6 +14,7 @@ docker run \
     --interactive \
     --tty \
     --env STOCKHOLM_AI_BRANCH \
+    --env SLACK_APP_HOOK=dummy \
     --volume `pwd`:/workspace/source \
     --volume `pwd`/server:/workspace/server \
     --volume `pwd`/local_syncer.sh:/workspace/syncer.sh \

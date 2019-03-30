@@ -1,5 +1,5 @@
-# Stockholm.AI webpage
-The Stockholm.AI webpage.
+# Stockholm AI website
+The Stockholm AI website.
 
 # Local Debug Deploy
 To serve the website without the nginx server

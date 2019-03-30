@@ -6,8 +6,12 @@ location:
     - Stockholm
 
 positions:
-    - title: Validation Engineer 
+    - title: Product Data Scientist
       location:
           - Stockholm
-      url: https://peltarion.com/about#join-us
+      url: https://peltarion.teamtailor.com/jobs/170866-product-data-scientist/applications/new
+    - title: AI Research Engineer
+      location:
+          - Stockholm
+      url: https://peltarion.teamtailor.com/jobs/137403-ai-research-engineer/applications/new
 ---
