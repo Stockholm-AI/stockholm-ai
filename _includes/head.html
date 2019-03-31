@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.organization.name }}{% endif %}</title>
+    <title>
+        {{ site.data.organization.name }}{% if page.title %} - {{ page.title }}{% endif %}
+    </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.data.organization.description }}">
 
-    <meta name="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.organization.name }}{% endif %}"/>
+    <meta name="og:site_name" content="{{ site.data.organization.name }}{% if page.title %} - {{ page.title }}{% endif %}"/>
     <meta name="og:description" content="{{ site.data.organization.description }}" />
     <meta name="og:type" content="website" />
     <meta name="og:image" content="http://stockholm.ai/img/logo.png" /><!-- NOTE Open Graph needs absolute paths for compatibility reasons -->
