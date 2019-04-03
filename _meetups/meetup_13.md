@@ -1,12 +1,14 @@
 ---
-title: "Meetup #13: Deep Learning & Geometry and Machine Intelligence
-location: "unknown, 42"
+title: "Meetup #13: Deep learning Geometry & ML for mobility"
+location: "Schibsted ,Västra Järnvägsgatan 21"
 time: "18.00-21:00, May 9"
-tickets: "<link-to-eventbrite>"
+tickets: "link-to-eventbrite"
 speakers:
   - robert-luciani
   - mattias-nilsson
 moderators:
   - egil-martinsson
+organizers:
+  - egil-martinsson
 ---
-`meetup_14` content.
+`meetup_13` content.

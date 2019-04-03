@@ -9,6 +9,7 @@ speakers:
 moderators:
   - eric-leijonmarck
 organizers:
+  - eric-leijonmarck 
   - john-leijonmarck 
 ---
 `meetup_14` content.
