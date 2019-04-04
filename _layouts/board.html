@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+{% include head.html %}
     <body id="page-top" class="index">
 
         {% include navigation.html %}
@@ -9,7 +7,7 @@
                 <div class="container"> <!-- TODO should this be the structure? something does not work-->
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Board {{ site.data.board.current.year }}</h2>
+                            <h1 class="section-heading">Board {{ site.data.board.current.year }}</h1>
                         </div>
                     </div>
                     <div class="row text-center">
@@ -17,7 +15,7 @@
                             {% assign board_member = site.people | where: "slug", board_member_id | first %}
                             <div class="col-sm-4">
                                 <div class="person board_member">
-                                    <img src="/img/people/{{ board_member.pic }}" class="img-responsive img-circle" alt="">
+                                    <img src="/img/people/{{ board_member.pic }}" class="img-responsive img-circle" alt="{{ board_member.name }} photo">
                                     <h4>{{ board_member.name }}</h4>
                                     <p class="text-primary">{{ board_member.position }}</p>
                                     <ul class="list-inline social-buttons">

@@ -1,12 +1,12 @@
----
----
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+{% include head.html %}
     <body id="page-top" class="index">
         <div class="col-sm-4">
             <div class="person">
-                <img src="/img/people/{{ page.pic }}" class="img-responsive img-circle" alt="">
+                <img
+                    src="/img/people/{{ page.pic }}"
+                    class="img-responsive img-circle"
+                    alt="{{ page.name }} photo"
+                />
                 <h4>{{ page.name }}</h4>
                 <p class="text-primary">{{ page.position }}</p>
                 <ul class="list-inline social-buttons">

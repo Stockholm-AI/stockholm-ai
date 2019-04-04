@@ -17,7 +17,12 @@
                     {% assign speaker = site.people | where: "slug", speaker_id | first %}
                     <div class="col-sm-4">
                         <div class="person speaker">
-                            <img src="/img/people/{{ speaker.pic }}" class="img-responsive img-circle" style="border: 7px solid #f1f1f1; border-radius: 100%; " alt="">
+                            <img
+                                src="/img/people/{{ speaker.pic }}"
+                                class="img-responsive img-circle"
+                                style="border: 7px solid #f1f1f1; border-radius: 100%; "
+                                alt="{{ speaker.name }} photo"
+                            />
                             <h4>{{ speaker.name }}</h4>
                             <p class="text-primary">{{ speaker.position }}</p>
                             <ul class="list-inline social-buttons">

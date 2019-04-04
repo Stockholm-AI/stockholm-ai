@@ -119,7 +119,7 @@ class Statistics(object):
         self.last_date = None
 
     def process(self, message):
-        date = message["time"].date()
+        date = tuple(message["time"].isocalendar()[:2])
 
         if date not in self.dates:
             self.dates[date] = Date(date)

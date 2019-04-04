@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 WORKDIR /workspace
 
@@ -17,7 +17,7 @@ RUN apt-get update && \
         && \
     rm -rf /var/lib/apt/lists/*
 
-RUN gem install jekyll --version '3.7.2'
+RUN gem install jekyll --version '3.8.5'
 
 COPY supervisord.conf /etc/supervisor.conf
 COPY server /workspace/server

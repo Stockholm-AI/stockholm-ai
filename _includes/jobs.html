@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-            <h2 class="section-heading">AI Job Board</h2>
+            <h1 class="section-heading">AI Job Board</h1>
                 <h3 class="section-subheading text-muted">
                     <p>
-                        Stockholm AI is hosting a job board to help our members find exciting opportunities to grow and connect companies to people that can help them evolve. Our goal with this initiative is to continue bringing the community together and continue establishing Stockholm as a global center of AI/ML.
+		        {{ site.data.organization.name }} is hosting a job board to help our members find exciting opportunities to grow and connect companies to people that can help them evolve. Our goal with this initiative is to continue bringing the community together and continue establishing Stockholm as a global center of AI/ML.
                     </p>
                     <p>
                     <!-- <a href="/forms/submit-job" class="btn btn-xl">Post a Job</a> -->
@@ -27,6 +27,7 @@ Do you have any questions, want to know more about the initiative or want to rea
                     <a href="{{ company.website }}">
                     <img 
                         src="/img/company_logos/{{ company.logo }}"
+                        alt="{{ company.name }} logo"
                         width="120px"
                         style="margin: 10px;"
                     />
@@ -59,7 +60,7 @@ Do you have any questions, want to know more about the initiative or want to rea
                     While we are dreaming big and hope that the board will evolve in the future, at this point in time we can't offer a full array of job seeking, career management, recruitment and talent management solutions. For now, the main idea is simply to gather all open job opportunities related to the AI/ML and Data Science fields, as well as the people with the relevant skills under one roof.
                 </p>
                 <br />
-		<h3 class="section-subheading text-muted">"I already host my open job positions on other job boards. What's my benefit from hosting them with Stockholm AI?"</h3>
+		<h3 class="section-subheading text-muted">"I already host my open job positions on other job boards. What's my benefit from hosting them with {{ site.data.organization.name }}?"</h3>
                 <p>
                     In a nutshell: that it will be immediately visible to our network of over a 1,000 active ML Engineers and Data Scientist.
                 </p>
