@@ -6,8 +6,8 @@ location:
     - Stockholm
 
 positions:
-    - title: Developer with experience in Deep Learning and Image Analysis 
+    - title: Deep Learning Developer
       location:
           - Stockholm
-      url: https://www.norna.ai/ai-talented-wanted/
+      url: https://www.norna.ai/ai-talented-wanted.html
 ---

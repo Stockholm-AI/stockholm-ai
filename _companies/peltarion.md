@@ -6,12 +6,12 @@ location:
     - Stockholm
 
 positions:
-    - title: Product Data Scientist
+    - title: Data Scientist
       location:
           - Stockholm
-      url: https://peltarion.teamtailor.com/jobs/170866-product-data-scientist/applications/new
-    - title: AI Research Engineer
+      url: https://peltarion.teamtailor.com/jobs/177694-data-scientist
+    - title: Senior AI Research Engineer
       location:
           - Stockholm
-      url: https://peltarion.teamtailor.com/jobs/137403-ai-research-engineer/applications/new
+      url: https://peltarion.teamtailor.com/jobs/177685-senior-ai-research-engineer
 ---
