@@ -1,7 +1,7 @@
 ---
 name: Carl Samuelsson
 pic: carl-samuelsson.jpg
-position: MSc Student in Mathematical Statistics, Customer Analyst at Folksam, Secretary of Stockholm AI
+position: MSc Student in Mathematical Statistics, Data Scientist Intern at IBM, Secretary of Stockholm AI
 email: carl@stockholm.ai
 social:
   - title: linkedin
