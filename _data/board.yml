@@ -1,14 +1,24 @@
 current:
-  year: 2018
+  year: 2019
   members:
     - patrik-tran
     - reynaldo-boulogne
-    - anna-nordell
+    - ingrid-af-sandeberg
     - egil-martinsson
     - carl-samuelsson
-    - kajsa-norin
     - jim-holmstrom
+    - alexander-rad
 earlier:
+  - year: 2018
+    members:
+      - patrik-tran
+      - reynaldo-boulogne
+      - anna-nordell
+      - egil-martinsson
+      - carl-samuelsson
+      - kajsa-norin
+      - jim-holmstrom
+
   - year: 2017
     members:
       - lars-sjosund

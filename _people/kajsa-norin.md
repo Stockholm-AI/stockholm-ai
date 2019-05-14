@@ -1,7 +1,7 @@
 ---
 name: Kajsa Norin
 pic: kajsa-norin.jpg
-position: Freelancing Data Scientist, Board Member of Stockholm AI
+position: Freelancing Data Scientist
 email: kajsa@stockholm.ai
 social:
   - title: linkedin
