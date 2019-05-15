@@ -14,7 +14,7 @@ positions:
       location:
           - Stockholm
       url: https://univrses.com/open-positions/computer-vision-engineers/
-    - title: Master Thesis Project: Open Application
+    - title: "Master Thesis Project: Open Application"
       location:
           - Stockholm
       url: https://univrses.com/open-positions/master-thesis-project-open-application/

@@ -1,7 +1,7 @@
 ---
 name: Anna Nordell
 pic: anna-nordell.jpg
-position: CMO & Founding Team at Sana, Head of Sponsorships for Stockholm AI
+position: CMO & Founding Team at Sana
 email: anna@stockholm.ai
 social:
   - title: linkedin
