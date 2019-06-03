@@ -5,5 +5,9 @@ website: https://www.spotify.com/se/
 location:
     - Stockholm
 
-positions: []
+positions:
+    - title: Multiple job openings
+      location:
+          - Sweden
+      url: https://www.spotifyjobs.com/search-jobs/#category=data-analytics&location=sweden
 ---
