@@ -6,5 +6,4 @@ location:
     - Stockholm
 
 positions:
-
 ---

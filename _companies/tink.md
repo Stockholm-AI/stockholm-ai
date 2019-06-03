@@ -6,7 +6,6 @@ location:
     - Stockholm
 
 positions:
-
     - title: Data Engineer
       location:
           - Stockholm
