@@ -9,9 +9,13 @@ positions:
     - title: Senior Data Scientist
       location:
           - Stockholm
-      url: https://careers.bolt.eu/positions/5B61A6DAD9
+      url: https://boards.greenhouse.io/bolt/jobs/4321594002
+    - title: Staff Data Scientist
+      location:
+          - Stockholm
+      url: https://boards.greenhouse.io/bolt/jobs/4321519002
     - title: Senior Software Engineer - Data Engineering
       location:
           - Stockholm
-      url: https://careers.bolt.eu/positions/A1FDA71431
+      url: https://boards.greenhouse.io/bolt/jobs/4321285002
 ---
