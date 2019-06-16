@@ -1,7 +1,7 @@
 ---
 name: Joopiter
-logo: joopiter.png
-website: https://www.joopiter.co.uk
+logo: joopiterx.png
+website: https://joopiterx.com/
 location:
     - Stockholm
 
