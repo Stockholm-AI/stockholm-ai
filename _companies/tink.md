@@ -6,10 +6,6 @@ location:
     - Stockholm
 
 positions:
-    - title: Tech Lead Machine Learning
-      location:
-          - Stockholm
-      url: https://jobs.tink.se/jobs/140483-tech-lead-machine-learning
 
     - title: Data Engineer
       location:

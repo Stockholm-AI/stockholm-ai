@@ -3,11 +3,11 @@ name: Combient
 logo: combient.png
 website: https://combient.com
 location:
-    - Stockholm
+    - Stockholm/Gothemburg
 
 positions:
-    - title: Data Scientists
+    - title: Data Architect / Data Engineer / Data Infrastructure Engineer
       location:
           - Stockholm
-      url: https://combient.breezy.hr/p/6396141bf23601-data-scientists
+      url: https://combient.breezy.hr/
 ---

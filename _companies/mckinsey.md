@@ -6,8 +6,5 @@ location:
     - Stockholm
 
 positions:
-    - title: Data Scientist
-      location:
-          - Stockholm
-      url: https://www.mckinsey.com/careers/search-jobs/jobs/data-scientist-mckinsey-analytics-2353
+
 ---
