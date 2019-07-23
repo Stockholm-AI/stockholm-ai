@@ -6,10 +6,6 @@ location:
     - Stockholm
 
 positions:
-    - title: Senior Data Scientist
-      location:
-          - Stockholm
-      url: https://boards.greenhouse.io/bolt/jobs/4321594002
     - title: Staff Data Scientist
       location:
           - Stockholm

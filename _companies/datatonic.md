@@ -6,8 +6,4 @@ location:
     - Stockholm
 
 positions:
-    - title: Data Scientist
-      location:
-          - Stockholm
-      url: https://datatonic.workable.com/jobs/994605
 ---

@@ -6,10 +6,6 @@ location:
     - Stockholm
 
 positions:
-    - title: AI Developer/Machine Learning Engineer Intern
-      location:
-          - Stockholm
-      url: https://king.com/es/jobs/ai-developermachine-learning-engineer-intern-1820
     - title: Data Scientist Intern - Central AI team
       location:
           - Stockholm
