@@ -1,5 +1,5 @@
 ---
-name: Mikael Huss
+name: Mikael Huss, PhD
 pic: mikael-huss.jpg
 position: Data scientist at Peltarion
 social:

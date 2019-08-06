@@ -1,7 +1,7 @@
 ---
-name: Stefan Magureanu
+name: Stefan Magureanu, PhD
 pic: stefan-magureanu.jpg
-position: Ph.D candidate in Artificial Intelligence, focus on Reinforcement Learning at KTH
+position: Machine Learning Research Engineer at Klarna
 social:
   - title: home
     url: https://people.kth.se/~magur/
