@@ -8,6 +8,7 @@ speakers:
   - mikael-huss
   - viktor-qvarfordt
   - stefan-magureanu
+  - natallia-lundqvist
 moderators:
   - patrik-tran
 organizers:
