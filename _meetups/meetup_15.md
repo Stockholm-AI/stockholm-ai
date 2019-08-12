@@ -9,6 +9,7 @@ speakers:
   - viktor-qvarfordt
   - stefan-magureanu
   - natallia-lundqvist
+  - sepideh-pashami
 moderators:
   - patrik-tran
 organizers:
