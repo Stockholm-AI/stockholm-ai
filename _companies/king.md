@@ -10,8 +10,4 @@ positions:
       location:
           - Stockholm
       url: https://king.com/es/jobs/data-scientist-intern-central-ai-team-1819
-    - title: Data Scientist Intern
-      location:
-          - Stockholm
-      url: https://king.com/jobs/data-scientist-intern-1794
 ---
