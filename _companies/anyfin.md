@@ -10,8 +10,4 @@ positions:
       location:
           - Stockholm
       url: https://angel.co/anyfin/jobs/467146-data-engineer
-    - title: (Junior) Data scientist - Growth
-      location:
-          - Stockholm
-      url: https://career.anyfin.com/jobs/216374-junior-data-scientist-growth
 ---
