@@ -3,7 +3,7 @@
   icon: fa-meetup
   url: /meetups
 
-- title: Study Group
+- title: Technical AI Workshop
   description: The purpose of the Stockholm AI Technical AI Workshop is to go into depth on research articles, concepts, blog post, and master’s theses. This to advance professional practitioners of AI and machine learning to increase their practical and theoretical skills.
   icon: fa-book
   url: /study-groups
