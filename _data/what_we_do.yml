@@ -32,3 +32,8 @@
   description: Distilling AI is a study group where we digest different AI-related concepts to arrive at intuitive abstractions and visualizations. Every series of topics is distilled by smaller intimate groups during a few sessions and later shared with the community.
   icon: fa-laptop
   url: https://www.facebook.com/groups/stockholmai
+
+- title: Women in Data Science
+  description: Our goal is to create, inspire and support a strong community for women in Data Science, Machine Learning and AI in Sweden. We are doing this because we believe it is essential that AI technologies are developed by a diverse and inclusive group of people. WiDS Sweden organizes technical events featuring women on stage as well as social events, and we are currently extending into training sessions and a mentorship program.
+  img: img/company_logos/wids.png
+  url: https://www.facebook.com/groups/stockholmai
