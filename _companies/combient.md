@@ -6,8 +6,8 @@ location:
     - Stockholm/Gothemburg
 
 positions:
-    - title: Data Architect / Data Engineer / Data Infrastructure Engineer
+    - title: Data Engineer / Data Scientist
       location:
-          - Stockholm
+          - Helsinki
       url: https://combient.breezy.hr/
 ---

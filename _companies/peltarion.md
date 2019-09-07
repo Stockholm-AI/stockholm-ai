@@ -10,10 +10,6 @@ positions:
       location:
           - Stockholm
       url: https://peltarion.teamtailor.com/jobs/177694-data-scientist
-    - title: Master Thesis
-      location:
-          - Stockholm
-      url: https://peltarion.teamtailor.com/jobs/254289-master-thesis
     - title: Industrial Ph.D. Candidate in Explainable Predictions
       location:
           - Stockholm
