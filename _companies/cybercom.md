@@ -6,10 +6,6 @@ location:
     - Stockholm
 
 positions:
-    - title: Machine Learning Specialist with industry experience
-      location:
-          - Stockholm
-      url: https://career.cybercom.com/jobs/93255-machine-learning-specialist-with-industry-experience
     - title: Data scientist with NLP experience
       location:
           - Stockholm
