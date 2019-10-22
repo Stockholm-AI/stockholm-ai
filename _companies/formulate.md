@@ -5,5 +5,9 @@ website: https://www.formulate.app
 location:
     - Stockholm
 
-positions: []
+positions:
+    - title: Data Scientist
+      location:
+           - Stockholm
+      url: https://careers.formulate.app/jobs/303421-data-scientist
 ---
