@@ -21,6 +21,7 @@
                             <img 
 			    	src="/img/company_logos/{{ partner.pic }}"
 				class="img-responsive img-centered"
+                style="max-height: 200px" 
 				alt="{{ partner.name }} logo"
 			    />
                         </a>
@@ -32,6 +33,28 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
+	    <h2 class="section-heading">Gold Partners</h2>
+            {% for partner in site.data.partners %}
+                {% if partner.active %}
+                {% if partner.level == 'gold' %}
+                    <div class="col-md-2 col-sm-2">
+                        <a href="{{ partner.url }}">
+                            <img 
+			    	src="/img/company_logos/{{ partner.pic }}"
+				class="img-responsive img-centered"
+                style="max-height: 150px" 
+				alt="{{ partner.name }}"
+			    />
+                        </a>
+                    </div>
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+	    </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
 	    <h2 class="section-heading">Silver Partners</h2>
             {% for partner in site.data.partners %}
                 {% if partner.active %}
@@ -41,6 +64,7 @@
                             <img 
 			    	src="/img/company_logos/{{ partner.pic }}"
 				class="img-responsive img-centered"
+                style="max-height: 150px" 
 				alt="{{ partner.name }}"
 			    />
                         </a>

@@ -7,11 +7,16 @@
   url: https://www.bcg.com/beyond-consulting/bcg-gamma/default.aspx
   active: true
   level: diamond
+- name: Ericsson
+  pic: ericsson.png
+  url: http://www.ericsson.se
+  active: true
+  level: diamond
 - name: Peltarion
   pic: peltarion.png
   url: https://peltarion.com
   active: true
-  level: silver
+  level: gold
 - name: PolarMind
   pic: polarmind.png
   url: https://polarmind.se
