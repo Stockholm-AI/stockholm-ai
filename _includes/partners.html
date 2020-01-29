@@ -37,7 +37,7 @@
             {% for partner in site.data.partners %}
                 {% if partner.active %}
                 {% if partner.level == 'gold' %}
-                    <div class="col-md-2 col-sm-2">
+                    <div class="col-md-4 col-sm-4">
                         <a href="{{ partner.url }}">
                             <img 
 			    	src="/img/company_logos/{{ partner.pic }}"
@@ -59,7 +59,7 @@
             {% for partner in site.data.partners %}
                 {% if partner.active %}
                 {% if partner.level == 'silver' %}
-                    <div class="col-md-2 col-sm-2">
+                    <div class="col-md-3 col-sm-3">
                         <a href="{{ partner.url }}">
                             <img 
 			    	src="/img/company_logos/{{ partner.pic }}"
