@@ -9,5 +9,5 @@ positions:
     - title: Multiple job openings
       location:
           - Sweden
-      url: https://www.spotifyjobs.com/search-jobs/#category=data-analytics&location=sweden
+      url: https://www.spotifyjobs.com/search-jobs/#category=data-and-analytics&location=sweden
 ---
